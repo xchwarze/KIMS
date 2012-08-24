@@ -1,0 +1,1 @@
+.\Tools\reHash\rehash.exe -norecur -none -crc32 %1 -out:raw > ".\Reports\crc.txt"

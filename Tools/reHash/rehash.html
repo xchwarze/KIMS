@@ -1,0 +1,445 @@
+<html>
+<head>
+	  <title>ReHash</title>
+	  <link rel="stylesheet" type="text/css" href="rehash.css">
+</head>
+<body bgcolor="#FFFFFF" color="#000000">
+
+<center>
+<h2>ReHash - A Console-Based Hash Calculator</h2>
+</center>
+
+<p><img src="rehash.jpg" alt="ReHash screenshot" width="572px" height="223px"></p>
+
+<br>
+<h2>Contents</h2>
+<ul>
+<li><a href="#reintro">Introduction</a></li>
+<li><a href="#realgos">Supported algorithms</a></li>
+<li><a href="#reusage">Usage: General usage</a></li>
+<li><a href="#refnpattern">Usage: Advanced filename pattern matching</a></li>
+<li><a href="#reoutput">Usage: Output options</a></li>
+<li><a href="#rehmac">Usage: Computing HMACs</a></li>
+<li><a href="#resamples">Usage: Some usage examples</a></li>
+<li><a href="#rebench">Usage: Benchmarking</a></li>
+<li><a href="#rethanks">Thanks / acknowledgements</a></li>
+</ul>
+
+<br>
+<h2><a name="reintro">Introduction</a></h2>
+
+ReHash is a free, open source console-based hash calculator.<br><br>
+Some of the features of ReHash:
+<ul>
+<li>Fully configurable over the command line</li>
+<li>Portable code (currently for Windows and Linux)</li>
+<li>Recursive directory scanning ability</li>
+<li>Many and fast hash algorithms</li>
+<li>Advanced file pattern matching</li>
+<li>4 different output formats: text, HTML, XML, CSV</li>
+</ul>
+<br><br>
+This tool is ideal for webmasters who wish to provide their users hash values of
+their (downloadable) files. The complete hashing process can be automated by using a
+shell/batch script. No additional user interaction is needed (i.e. the program
+won't ask you for anything, it's just using the command-line).
+<br><br>
+ReHash is distributed under the terms of the BSD license. The BSD license
+allows you to use every part of ReHash and ReHash itself freely, but if
+you use source code of ReHash, you have to mention me (Dominik Reichl) somewhere
+in the documents of your application.
+<br><br>
+<br>
+<h2><a name="realgos">Supported algorithms</a></h2>
+
+The current version of ReHash supports the following hash algorithms:<br><br>
+
+<table width="100%" border="1">
+<tr bgColor="#F0F0F0">
+<td><center><b>Algorithm</b></center></td>
+<td><center><b>Standard</b></center></td>
+<td><center><b>Inventor</b></center></td>
+<td><center><b>Hash Digest Size</b></center></td>
+</tr>
+
+<tr><td>Adler-32</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">32 bits</div></td></tr>
+
+<tr><td>CRC-16</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">16 bits</div></td></tr>
+
+<tr><td>CRC-16-CCITT</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">16 bits</div></td></tr>
+
+<tr><td>CRC-16-XMODEM</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">16 bits</div></td></tr>
+
+<tr><td>CRC-32</td>
+<td>ANSI X3.66, FIPS PUB 71</td>
+<td>&nbsp;</td>
+<td><div align="right">32 bits</div></td></tr>
+
+<tr><td>CRC-64</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">64 bits</div></td></tr>
+
+<tr><td>eDonkey-2000</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">128 bits</div></td></tr>
+
+<tr><td>ELF-32</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">32 bits</div></td></tr>
+
+<tr><td>FCS-16</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">16 bits</div></td></tr>
+
+<tr><td>FCS-32</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">32 bits</div></td></tr>
+
+<tr><td>FNV (FNV-32/FNV-64)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">32/64 bits</div></td></tr>
+
+<tr><td>GHash (GHash-32-3, GHash-32-5)</td>
+<td>-</td>
+<td>-</td>
+<td><div align="right">32 bits</div></td></tr>
+
+<tr><td>GOST-Hash</td>
+<td>R 34.11-94</td>
+<td>&nbsp;</td>
+<td><div align="right">256 bits</div></td></tr>
+
+<tr><td>HAVAL (3/4/5 passes, 256 bits)</td>
+<td>&nbsp;</td>
+<td>Zheng, Pieprzyk,<br>Seberry</td>
+<td><div align="right">256 bits</div></td></tr>
+
+<tr><td>MD2</td>
+<td>RFC 1319</td>
+<td>Rivest</td>
+<td><div align="right">128 bits</div></td></tr>
+
+<tr><td>MD4</td>
+<td>RFC 1320</td>
+<td>Rivest</td>
+<td><div align="right">128 bits</div></td></tr>
+
+<tr><td>MD5</td>
+<td>RFC 1321</td>
+<td>Rivest</td>
+<td><div align="right">128 bits</div></td></tr>
+
+<tr><td>RIPEMD-128/RIPEMD-160</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">128/160 bits</div></td></tr>
+
+<tr><td>SHA-1</td>
+<td>FIPS PUB 180-1</td>
+<td>NIST/NSA</td>
+<td><div align="right">160 bits</div></td></tr>
+
+<tr><td>SHA-2 (SHA256/SHA384/SHA512)</td>
+<td>&nbsp;</td>
+<td>NIST/NSA</td>
+<td><div align="right">256/384/512 bits</div></td></tr>
+
+<tr><td>SizeHash-64</td>
+<td>-</td>
+<td>-</td>
+<td><div align="right">64 bits</div></td></tr>
+
+<tr><td>Tiger</td>
+<td>&nbsp;</td>
+<td>Anderson, Biham</td>
+<td><div align="right">192 bits</div></td></tr>
+
+<tr><td>XUM-32</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><div align="right">32 bits</div></td></tr>
+
+</table>
+
+<br><br>
+
+<h2><a name="reusage">Usage: General usage</a></h2>
+<pre>rehash [options1] filespec [options2] [&gt; outputfile]</pre>
+The command-line is parsed from the left to the right. So if you execute ReHash like this:
+<pre>rehash -all -none *.*</pre>
+it will output nothing, because you first activate all algorithms and then deactivate them
+all.<br><br>
+It doesn't matter whether the options are set before or after the filename
+specification. [options1] and [options2] are equivalent and could be exchanged.<br>
+<br>
+The option '-none' deactivates all algorithms. The option '-all' activates all
+algorithms. Algorithms are activated by using their short name as option name,
+so for example '-md5' would activate the MD5 algorithm, '-sha1' would activate
+the SHA-1 algorithm. To deactivate algorithms selectively, use 'no' plus their
+option name, so '-nomd5' would deactivate the MD5 algorithm, '-nosha1' would
+deactivate the SHA-1 algorithm.
+<br>
+
+<h2><a name="refnpattern">Usage: Advanced filename pattern matching</a></h2>
+
+ReHash supports advanced filename patterns. Those filename patterns are composed
+of regular (printable) characters which may comprise a filename as well as
+special pattern matching characters:<br>
+<br>
+<table border="1px" width="100%">
+<tr><td>.</td>
+<td>Matches a period. Doesn't have a special meaning.</td></tr>
+<tr><td>?</td>
+<td>Matches any single character.</td></tr>
+<tr><td>*</td>
+<td>Matches zero or more occurences of any character.</td></tr>
+<tr><td>[ab]</td>
+<td>Set. Matches any character in the set. In this case 'a' or 'b'.</td></tr>
+<tr><td>[a-m]</td>
+<td>Range. Matches any character in the defined range. Here all characters between 'a' and 'm'.</td></tr>
+<tr><td>!</td>
+<td>Negation flag. Matches everything that doesn't match the following pattern.</td></tr>
+<tr><td>[!R]</td>
+<td>Matches any character that is not in the defined range R.</td></tr>
+<tr><td>\ or `</td>
+<td>Quote. Matches exactly the following character.</tr></tr>
+</table><br>
+<br>
+If you would like to hash all png files in '/home/' that start with 'S' or 'T',
+use this:
+<pre>rehash "/home/[st]*.png"</pre>
+<br>
+If you would like to hash all jpg and jpe files in 'C:\web\', use this:
+<pre>rehash C:\web\*.jp[eg]</pre><br>
+
+<h2><a name="reoutput">Usage: Output options</a></h2>
+
+All output options have the prefix 'out:'.<br>
+<br>
+<table border="1px" width="100%">
+<tr><td>-out:none</td>
+<td>Output nothing.</td></tr>
+<tr><td>-out:raw / -out:text</td>
+<td>Output the hashes in text format.</td></tr>
+<tr><td>-out:html</td>
+<td>Output the hashes in HTML format.</td></tr>
+<tr><td>-out:xml</td>
+<td>Output the hashes in XML format.</td></tr>
+<tr><td>-out:csv</td>
+<td>Output the hashes in CSV format.</td></tr>
+<tr><td>-out:pad:true / -out:pad:false</td>
+<td>Pad the hashes to full words or not.</td></tr>
+<tr><td>-out:word:X</td>
+<td>Specifies the word size. Can be 8, 16, 32, ..., 1024, 2048, 'inf'.</td></tr>
+<tr><td>-out:nospaces</td>
+<td>Same as 'out:word:inf'.</td></tr>
+<tr><td>-out:lowhex / -out:uphex</td>
+<td>When output hex characters: lowercase or uppercase.</td></tr>
+<tr><td>-out:decimal</td>
+<td>Output hash bytes in decimal format.</td></tr>
+<tr><td>-out:base64</td>
+<td>Output the hash byte string as base-64 coded string.</td></tr>
+</table><br>
+Some comments:<br><br>
+The padding option doesn't really pad to words. It just outputs as many
+zeros (00 in hex) as needed to form a full word. Some applications
+may need full words, therefor I've included this option.<br>
+<br>
+The same applies for the word size: you don't really specify a word size
+with this, you just set after how many bytes a space delimits the output. So
+if you set the word size to 32 bits (-out:word:32), a space will be printed
+after four hex characters. '-out:word:inf' sets the word output size to
+infinite and will therefor not output any delimiter.
+
+<h2><a name="rehmac">Usage: Computing HMACs</a></h2>
+ReHash can compute HMACs. You set the HMAC key by using the command-line option
+'-hmac:XXX' where X stands for the key. The key can be build up of any characters
+other than spaces ' '.<br>
+<br>
+To compute HMACs of all files in '/mnt/' using the HMAC key 'Jefe', use this:
+<pre>rehash "/mnt/*" -hmac:Jefe</pre>
+
+<h2><a name="resamples">Usage: Some usage examples</a></h2>
+
+Hash all INI files in C:\Windows (including subdirectories) using all hash algorithms:
+<pre>rehash.exe C:\Windows\*.ini</pre><br>
+
+Hash all INI files in C:\Windows (excluding subdirectories) using all hash algorithms:
+<pre>rehash.exe -norecur C:\Windows</pre><br>
+
+Hash all BAT files on C:\ (including subdirectories) using only MD5 and SHA-1
+(remember command-line is parsed from the left to the right):
+<pre>rehash.exe -none -md5 -sha1 C:\*.bat</pre><br>
+
+Hash all files in C:\Temp (excluding subdirectories) using only the GOST algorithm:
+<pre>rehash.exe -norecur -none -gost C:\Temp\*</pre><br>
+
+Hash all ZIP files in C:\homepage (including subdirectories) using only the MD5 algorithm
+and output the hashes to C:\homepage\downloads\hashes.txt:
+<pre>rehash.exe -none -md5 C:\homepage\*.zip &gt; C:\homepage\downloads\hashes.txt</pre><br>
+
+<b>Options:</b><br><br>
+
+<table width="100%" border="1">
+<tr bgColor="#F0F0F0">
+<td width="25%"><center><b>Option</b></center></td>
+<td><center><b>Description</b></center></td>
+</tr>
+
+<tr><td>--help / -h / -?/<br>--version / -v</td>
+<td>Print some information about ReHash.</td></tr>
+
+<tr><td>-rcrsv / -recur / -r</td>
+<td>Recursive scanning. Scan all files in the specified path including files in
+subdirectories.</td></tr>
+
+<tr><td>-norcrsv / -norecur</td>
+<td>Disable recursive scanning. Scan only the files in the specified path not
+including subdirectories.</td></tr>
+
+<tr><td>-all / -a</td>
+<td>Enable all algorithms.</td></tr>
+
+<tr><td>-none / -n</td>
+<td>Disable all algorithms.</td></tr>
+
+<tr><td>-adler32 / -noadler32</td>
+<td>Enable/disable the Adler32 algorithm.</td></tr>
+
+<tr><td>-crc16 / -nocrc16</td>
+<td>Enable/disable the CRC-16 algorithm.</td></tr>
+
+<tr><td>-crc16c / -nocrc16c</td>
+<td>Enable/disable the CRC-16-CCITT algorithm.</td></tr>
+
+<tr><td>-crc16x / -nocrc16x</td>
+<td>Enable/disable the CRC-16-XMODEM algorithm.</td></tr>
+
+<tr><td>-crc32 / -nocrc32</td>
+<td>Enable/disable the CRC-32 algorithm.</td></tr>
+
+<tr><td>-crc64 / -nocrc64</td>
+<td>Enable/disable the CRC-64 algorithm.</td></tr>
+
+<tr><td>-ed2k / -noed2k</td>
+<td>Enable/disable the ED2K algorithm.</td></tr>
+
+<tr><td>-elf32 / -noelf32</td>
+<td>Enable/disable the ELF-32 algorithm.</td></tr>
+
+<tr><td>-fcs16 / -nofcs16</td>
+<td>Enable/disable the FCS-16 algorithm.</td></tr>
+
+<tr><td>-fcs32 / -nofcs32</td>
+<td>Enable/disable the FCS-32 algorithm.</td></tr>
+
+<tr><td>-fnv32 / -nofnv32</td>
+<td>Enable/disable the FNV-32 algorithm.</td></tr>
+
+<tr><td>-fnv64 / -nofnv64</td>
+<td>Enable/disable the FNV-64 algorithm.</td></tr>
+
+<tr><td>-ghash3 / -noghash3</td>
+<td>Enable/disable the GHash-3 algorithm.</td></tr>
+
+<tr><td>-ghash5 / -noghash5</td>
+<td>Enable/disable the GHash-5 algorithm.</td></tr>
+
+<tr><td>-gost / -nogost</td>
+<td>Enable/disable the GOST-Hash algorithm.</td></tr>
+
+<tr><td>-haval3 / -nohaval3</td>
+<td>Enable/disable the HAVAL-3-256 algorithm.</td></tr>
+<tr><td>-haval4 / -nohaval4</td>
+<td>Enable/disable the HAVAL-4-256 algorithm.</td></tr>
+<tr><td>-haval5 / -nohaval5</td>
+<td>Enable/disable the HAVAL-5-256 algorithm.</td></tr>
+
+<tr><td>-md2 / -nomd2</td>
+<td>Enable/disable the MD2 algorithm.</td></tr>
+<tr><td>-md4 / -nomd4</td>
+<td>Enable/disable the MD4 algorithm.</td></tr>
+<tr><td>-md5 / -nomd5</td>
+<td>Enable/disable the MD5 algorithm.</td></tr>
+
+<tr><td>-rmd120 / -normd120</td>
+<td>Enable/disable the RipeMD-120 algorithm.</td></tr>
+<tr><td>-rmd160 / -normd160</td>
+<td>Enable/disable the RipeMD-160 algorithm.</td></tr>
+
+<tr><td>-sha1 / -nosha1</td>
+<td>Enable/disable the SHA-1 algorithm.</td></tr>
+<tr><td>-sha256 / -nosha256</td>
+<td>Enable/disable the SHA-256 algorithm.</td></tr>
+<tr><td>-sha384 / -nosha384</td>
+<td>Enable/disable the SHA-384 algorithm.</td></tr>
+<tr><td>-sha512 / -nosha512</td>
+<td>Enable/disable the SHA-512 algorithm.</td></tr>
+
+<tr><td>-size32 / -nosize32</td>
+<td>Enable/disable the Size-32 algorithm (simply the byte-count of the message).</td></tr>
+
+<tr><td>-tiger / -notiger</td>
+<td>Enable/disable the TIGER algorithm.</td></tr>
+
+<tr><td>-xum32 / -noxum32</td>
+<td>Enable/disable the XUM32 algorithm.</td></tr>
+
+</table>
+<br><br>
+
+<h2><a name="rebench">Usage: Benchmarking</a></h2>
+
+ReHash supports benchmarking. Execute ReHash like this to start a benchmark:<br>
+<pre>rehash -bench</pre>
+On my 850 MHz processor, ReHash outputs such a table:<br>
+
+<pre>Algorithm                | Hash length | Hashed bytes/second
+============================================================
+Adler32                  |     32 bits |               37 MB
+CRC16                    |     16 bits |               35 MB
+CRC16-CCITT              |     16 bits |               35 MB
+CRC16-XMODEM             |     16 bits |               23 MB
+CRC32                    |     32 bits |               56 MB
+CRC64                    |     64 bits |               20 MB
+ED2K                     |    128 bits |               68 MB
+ELF32                    |     32 bits |               36 MB
+FCS16                    |     16 bits |               35 MB
+FCS32                    |     32 bits |               54 MB
+etc...</pre>
+
+<h2><a name="rethanks">Thanks / acknowledgements</a></h2>
+Thanks to (in no particular order):
+<ul>
+<li>Rafael Vuijk - Great source code contributions and help</li>
+<li>David R. Tribble - Advanced filename pattern matching code</li>
+<li>Markku-Juhani O. Saarinen - Original GOST-Hash implementation</li>
+<li>Yuliang Zheng - Original HAVAL implementation</li>
+<li>Wei Dai - Original implementations of various algorithms</li>
+<li>Dr Brian Gladman - Original SHA-1/SHA-2 implementation</li>
+<li>Tom St Denis - Original Tiger implementation</li>
+</ul>
+
+
+<br>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+Scans\Asquared\a2cmd.exe /update

@@ -1,0 +1,168 @@
+***************************************************************************************
+The TIniFile class uses the Windows API which imposes a limit of 64KB
+on INI files.
+***************************************************************************************
+
+
+CHANGELOG KIMS - DSR!
+------------------------
+
+
+-----------------------
+DEV-DEV-DEV-DEV-DEV-DEV
+-----------------------
+RCx  - xx/xx/2012
+	[*] Falla en add junk arreglada
+	[*] Algunas modificaciones menores
+-----------------------
+DEV-DEV-DEV-DEV-DEV-DEV
+-----------------------
+
+
+
+RC4  - 30/05/2012 (Wiseblood)
+	[*] Add notes/command bug fix
+
+RC3  - 06/04/2012 (No Regrets)
+	[*] Download bug fix
+	[*] More code cleanup
+
+RC2  - 07/03/2012 (The Wall)
+	[*] Stop download fix
+	[*] Filesize bug
+	[*] All scripts cleanup (?)	
+
+RC1  - 01/02/2012 (Backfire)
+	[+] 3 idiomas nuevos 
+	[+] Mini manual
+	[*] Code cleanup
+	[*] Bug fixed en borrado de carpetas
+	[*] Ahora los botones de parar detienen todo inmediatamente (ahora se para de verdad, no como la del abuelo)
+	[*] Debug update ahora tambien se aplica a las descargas/instalaciones
+	[*] Re escrito sistema de descargas y updates
+		Si el peso del archivo descargado es menor a 50k lo toma como descarga erronea.
+		Todo el proceso de descargas se hace con wget asi que pueden pasarle parametros ademas de la url.
+
+RC1??- 25/12/2011
+	[*] Code cleanup
+	[*] Fix LastScanFolder autosave
+	[*] Fix D&D folders to scan
+
+B16  - 22/12/2011
+	[*] 20% del codigo antiguo masacrado
+	[*] Fix scan de multiples muestras
+	[*] Fix borrado de infectados
+	[*] Re escritos todos los sistemas de scaneo
+	[-] Borrado desde los AVs (ahora borra directamente el kims) 
+	[*] Limpieza en AVS.ini
+	[*] Fix en nombre corto cuando se reinicia el kims
+	[*] Fix glitch al escanear y mover la ventana
+	[*] Fix bug Avast que no mostraba el resultado la gui
+	[*] El control de resultados erroneos no esta mas hardcodeado sino que se configurar desde Junk (Editar AVs -> Scaneo -> Junk)
+	[+] Agregado nuevo modo de scaneo "Piped"
+		Lee el resultado desde memoria y si el mismo es nulo lee el reporte.
+		Asi me puedo ahorrar el escribir reportes y al ser todo desde memoria deberia ser mas rapido >:3
+
+B15  - 1/12/2011
+	[*] AVs fix (ClamWin, Panda, VirusBuster, VBA32)
+	[*] Update innounp 0.36
+	[*] Agregado parametro /update para actualizacion automatica 
+	[*] Modificado comportamiento de como scanea el KIMS por linea de comando
+		KIMS.exe D:\server.exe D:\log.txt genera log de forma silenciosa ahora
+		KIMS.exe D:\server.exe - Scanea y cuando termina de hacerlo muestra los resultados en pantalla como hace normalmente
+
+B14.2- 10/11/2011
+	[*] Si no hay errores al actualizar/descargar AV la ventana se cierra sola!
+	[*] 2 Bug fix
+
+B14.1- 9/11/2011 (Morphine)
+	[*] 1 Bug fix
+
+B14 -  9/11/2011
+	[*] Add AV rewritten
+	[*] 2 Bug fixes
+
+B13 - 28/10/2011
+	[*] Downloader y Updater pueden cancelar
+	[*] Bug fixes
+
+B12 - 18/9/2011
+	[+] Debug scan
+	[*] Downloader opera de forma diferente
+	[*] Bug fixes
+
+B11 - 30/7/2011
+	[+] Debug update
+	[*] Updater opera de forma diferente
+	[*] Bug fixes
+
+B10 - 14/6/2011
+	[+] No/Ver AVs no instalados
+	[+] Borrar infectados desde el kims (preliminar)
+	[*] Nueva apariencia editor de AVs
+	[*] Los parametros de scaneo se manejan diferente
+	[*] Select all ahora solo selecciona solo los avs instalados
+	[*] 50% del codigo re estructurado
+
+B9.2 - 23/5/2011
+	[+] Agregado boton de parada
+	[+] Copiar resultados en BBCode
+	[+] Guardar resultados
+	[*] Copiar resultados en portapapeles ahora copia mas informacion
+	[*] Select all ahora solo selecciona solo los avs instalados
+	[*] Code cleanup/Fixes
+
+B9.1 - 24/3/2011
+	[*] Code cleanup/Fixes
+
+B9 - 16/3/2011
+	[*] Actualizacion de algunas configuraciones en los AVS
+	[*] Nueva Apariencia
+	[*] Command line suport beta 
+		(first param target file - second param log file)
+
+B8 - 14/3/2011
+	[*] Update AVS default list, 7z engine and wget
+	[*] Habilidad de cambiar skin agregada
+	[*] Code cleanup again...
+
+B7 - 7/5/10
+	[*] Cambios en apariencia
+	[*] Code cleanup/Bug fixed
+
+B6 - xx/xx/09
+	[*] Nueva apariencia (provisoria)
+	[*] unificada config en 1 archivo
+	[*] mas cambios en el codigo (fix .ini´s!)
+
+B5 - 4/1/09
+	[*] Quick Heal install/updater
+	[*] Ikarus updater fix
+	[*] F-Prot print bug fixed
+
+B4 - 3/1/09
+	[*] DRWEB updater *
+	[*] Sophos install/updater
+	[*] VirusBuster temp folder fix
+	[*] KAV install/updater
+	[*] McAfee install/updater *
+	[*] Quick Heal install
+	[*] Norman install
+	[*] NOD32 v2 install
+	[*] Some scans lines :S
+		* se puede hacer que pesen menos las updates en disco
+
+B3 - 1/1/09
+	[*] Clamwin new install system
+	[*] Ikarus updater fix
+	[*] Quick Heal fix
+	[*] Panda fix
+	[*] F-Prot 6 new engine
+	[*] KIMS update
+	[*] Updater Fix
+
+B2 - 31/12/08
+	[*] Ikarus install fix
+	[*] Asquared fixed
+
+;eof

@@ -1,0 +1,1 @@
+Data\bin\7z.exe x -o"Scans\Avira\" -y Downloads\UpdateAvira.zip
