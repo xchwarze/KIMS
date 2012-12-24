@@ -14,6 +14,9 @@ DEV-DEV-DEV-DEV-DEV-DEV
 RCx  - xx/xx/2012
 	[*] Falla en add junk arreglada
 	[*] Algunas modificaciones menores
+	[*] Si no estan creados todos los directorios los creo
+	[*] Puedo usar el editor deconfiguraciones y scannear a la vez
+	[*] La cantidad de detecciones en archivos se actualizan al instante
 -----------------------
 DEV-DEV-DEV-DEV-DEV-DEV
 -----------------------
