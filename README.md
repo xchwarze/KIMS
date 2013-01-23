@@ -2,7 +2,7 @@ KIMS
 ====
 
 KIMS was the first local and web multi scan of the world which last version came out on 2006 
-programed by Thor. In 2009 it began being developed to the new version by hands of DSR!. 
+programed by Thor. In 2009 it began being developed to the new version by DSR!. 
 
 
 Images
