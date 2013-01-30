@@ -11,6 +11,9 @@ CHANGELOG KIMS - DSR!
 -----------------------
 DEV-DEV-DEV-DEV-DEV-DEV
 -----------------------
+RCx  - 30/01/2013
+	[*] cambiadas algunas cosas en Opciones
+
 RCx  - xx/12/2012 ~ xx/01/2013
 	[+] Agregado lenguaje Rumano
 	[+] Agregado editor de lenguajes y Dbgview
@@ -25,7 +28,7 @@ RCx  - xx/12/2012 ~ xx/01/2013
 	[*] Si no estan creados todos los directorios los creo
 	[*] La cantidad de detecciones en archivos se actualizan al instante
 	[*] Al ver el proceso de scaneo se generan OutputDebugString indicando que delimitadores se encontraron (ya sean junk, de resultado o error report)
-	[*] Actualizados innounp y msi2xml
+	[*] Actualizados innounp, msi2xml y wget
 -----------------------
 DEV-DEV-DEV-DEV-DEV-DEV
 -----------------------
