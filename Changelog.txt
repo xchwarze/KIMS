@@ -11,8 +11,20 @@ CHANGELOG KIMS - DSR!
 -----------------------
 DEV-DEV-DEV-DEV-DEV-DEV
 -----------------------
+v3   - 01/01/2015
+	[!!!] Durante la evolucion de la v1 a la v2 el objetivo era agregar funcionalidades 
+		y re escribir el viejo codigo de Thor.
+		Esta vez la rama v3 se centrara en una primer etapa en re escribir mi codigo 
+		viejo del 2012, buscando un mejor acercamiento a soluciones mas optima de los
+		problemas que se presentaron.
+	[+] Nuevo modo de depuracion (se activa desde opciones y funciona para los escaneos)
+	[+] Nuevo sistema para manejar los idiomas v?ia gnugettext
+	[*] Nueva forma de manejar las ejecuciones del tipo "piped"
+	[*] Falla con los delimitadores y el uso de %char(xx)% arreglada
+
 RCx  - 30/01/2013
 	[*] cambiadas algunas cosas en Opciones
+	[*] Windows Vista/7/8 TOpenDialog/TSaveDialog
 
 RCx  - xx/12/2012 ~ xx/01/2013
 	[+] Agregado lenguaje Rumano

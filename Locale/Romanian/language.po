@@ -1,0 +1,739 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-12-31 16:03\n"
+"PO-Revision-Date: 2015-01-01 15:57-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#. FormAbout..Caption
+#: UnitFormAbout.dfm:5
+msgid "About"
+msgstr ""
+
+#. FormAbout..labelAuthor..Caption
+#: UnitFormAbout.dfm:3638
+msgid "Author:"
+msgstr ""
+
+#. FormAbout..labelDate..Caption
+#: UnitFormAbout.dfm:3666
+msgid "Date:"
+msgstr ""
+
+#. FormAbout..labelThanks..Caption
+#: UnitFormAbout.dfm:3680
+msgid "Thanks to:"
+msgstr ""
+
+#. FormAbout..labelContact..Caption
+#: UnitFormAbout.dfm:3708
+msgid "Web:"
+msgstr ""
+
+#. FormAddAV..Caption
+#: UnitFormAddAV.dfm:4
+msgid "AVs Editor"
+msgstr ""
+
+#. FormAddAV..LabelForum..Caption
+#: UnitFormAddAV.dfm:31
+msgid "Go to the AVs forum!"
+msgstr ""
+
+#. FormAddAV..ButtonReload..Caption
+#: UnitFormAddAV.dfm:52
+msgid "Reload Config"
+msgstr ""
+
+#. FormAddAV..ButtonExtEdit..Caption
+#: UnitFormAddAV.dfm:97
+msgid "Open in external editor"
+msgstr ""
+
+#. FormAddAV..ButtonSave..Caption
+#. FormLanguage..ButtonSave..Caption
+#. FormOpciones..ButtonSave..Caption
+#: UnitFormAddAV.dfm:186 UnitFormLanguage.dfm:3776 UnitFormOptions.dfm:29
+msgid "Save"
+msgstr ""
+
+#. FormAddAV..ListViewAVs......Caption
+#. FormMain..ListViewResult......Caption
+#: UnitFormAddAV.dfm:234 UnitFormMain.dfm:2809
+msgid "AV"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..Caption
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
+#: UnitFormAddAV.dfm:259 UnitFormAddAV.dfm:339
+msgid "Installation"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..LabelAVPath..Caption
+#: UnitFormAddAV.dfm:268
+msgid "Antivirus path"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..LabelName..Caption
+#: UnitFormAddAV.dfm:275
+msgid "Av name"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..LabelReportPath..Caption
+#: UnitFormAddAV.dfm:282
+msgid "Report Path"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..LabelIcon..Caption
+#: UnitFormAddAV.dfm:296
+msgid "Icon"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownload..Caption
+#: UnitFormAddAV.dfm:348
+msgid "Download URL"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelHTMLNearLink..Caption
+#: UnitFormAddAV.dfm:355
+msgid "Grab download link before this in the HTML code"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownloadShellexe..Caption
+#: UnitFormAddAV.dfm:362
+msgid "Action after downloading"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelInstallNotes..Caption
+#: UnitFormAddAV.dfm:369
+msgid "Instructions for manual installation"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:383
+msgid "Instructions"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:384
+msgid "Command to execute"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:418 UnitFormAddAV.dfm:481 UnitFormAddAV.dfm:557
+#: UnitFormAddAV.dfm:645
+msgid "Left delimiter"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:419 UnitFormAddAV.dfm:482 UnitFormAddAV.dfm:558
+#: UnitFormAddAV.dfm:646
+msgid "Right delimiter"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..Caption
+#: UnitFormAddAV.dfm:426
+msgid "Update"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdate..Caption
+#: UnitFormAddAV.dfm:436
+msgid "Update download URL"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelHTMLNearLink2..Caption
+#: UnitFormAddAV.dfm:443
+msgid "Grab update link before this in the HTML code"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
+#: UnitFormAddAV.dfm:450
+msgid "Action after downloading update"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..Caption
+#: UnitFormAddAV.dfm:491
+msgid "Scan"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..LabelAnalisisParameters..Caption
+#: UnitFormAddAV.dfm:501
+msgid "Parameters for different types scan"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..LabelExecutionType..Caption
+#: UnitFormAddAV.dfm:508
+msgid "Execution Type"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..LabelPreScan..Caption
+#: UnitFormAddAV.dfm:515
+msgid "Run before scanning"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..LabelPostScan..Caption
+#: UnitFormAddAV.dfm:522
+msgid "Run after scanning"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..LabelDilimiters..Caption
+#: UnitFormAddAV.dfm:529
+msgid "Delimiters for extract report result"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..Caption
+#. FormMain..ListViewResult......Caption
+#: UnitFormAddAV.dfm:540 UnitFormMain.dfm:2814
+msgid "Result"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..Caption
+#: UnitFormAddAV.dfm:565
+msgid "Junk"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..BitBtnJunk..Caption
+#: UnitFormAddAV.dfm:594
+msgid "Add!"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..Caption
+#: UnitFormAddAV.dfm:627
+msgid "Error report"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
+#: UnitFormAddAV.dfm:661
+msgid "Base parameter="
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
+#: UnitFormAddAV.dfm:662
+msgid "Heuristic off="
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
+#: UnitFormAddAV.dfm:663
+msgid "Low heuristic="
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
+#: UnitFormAddAV.dfm:664
+msgid "Medium heuristic="
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
+#: UnitFormAddAV.dfm:665
+msgid "High heuristic="
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:668
+msgid "Analysis type"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
+#: UnitFormAddAV.dfm:669
+msgid "Parameters"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType..Text
+#. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
+#: UnitFormAddAV.dfm:681 UnitFormAddAV.dfm:683
+msgid "Normal"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
+#: UnitFormAddAV.dfm:684
+msgid "Piped"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
+#: UnitFormAddAV.dfm:685
+msgid "AntiBlock"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
+#: UnitFormAddAV.dfm:686
+msgid "AntiWait"
+msgstr ""
+
+#. FormAddAV..PopupMenuDelimitadores..addDelim..Caption
+#. FormAddAV..PopupMenuInstall..addAVNotes..Caption
+#. FormAddAV..PopupMenuAVs..Add1..Caption
+#. FormAddAV..PopupMenuError..AddError..Caption
+#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951
+#: UnitFormAddAV.dfm:1025
+msgid "Add"
+msgstr ""
+
+#. FormAddAV..PopupMenuDelimitadores..delDelim..Caption
+#. FormAddAV..PopupMenuJunk..Del1..Caption
+#. FormAddAV..PopupMenuInstall..delAVNotes..Caption
+#. FormAddAV..PopupMenuAVs..Del2..Caption
+#. FormAddAV..PopupMenuError..DelError..Caption
+#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916
+#: UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
+msgid "Del"
+msgstr ""
+
+#. FormAddAV..PopupMenuJunk..DelAll1..Caption
+#: UnitFormAddAV.dfm:850
+msgid "Del All"
+msgstr ""
+
+#. FormDebug..Caption
+#. FormMain..Memo....Lines.Strings
+#: UnitFormDebug.dfm:4 UnitFormMain.dfm:2845
+msgid "Debug info"
+msgstr ""
+
+#. FormDownload..Caption
+#: UnitFormDownload.dfm:4 UnitFormDownload.pas:119
+msgid "Downloading"
+msgstr ""
+
+#. FormDownload..Label1..Caption
+#. FormUpdate..Label1..Caption
+#: UnitFormDownload.dfm:29 UnitFormUpdate.dfm:28
+msgid "Progress:"
+msgstr ""
+
+#. FormDownload..Label2..Caption
+#. FormUpdate..Label2..Caption
+#: UnitFormDownload.dfm:43 UnitFormUpdate.dfm:42
+msgid "0%"
+msgstr ""
+
+#. FormDownload..Label3..Caption
+#. FormUpdate..Label3..Caption
+#: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
+msgid "Download:"
+msgstr ""
+
+#. FormDownload..Label4..Caption
+#. FormUpdate..Label4..Caption
+#: UnitFormDownload.dfm:71 UnitFormUpdate.dfm:70
+msgid "0 kb"
+msgstr ""
+
+#. FormDownload..ButtonCancel..Caption
+#. FormUpdate..ButtonCancel..Caption
+#: UnitFormDownload.dfm:85 UnitFormUpdate.dfm:84
+msgid "Cancel"
+msgstr ""
+
+#. FormLanguage..Label5..Caption
+#. FormLanguage..ComboBoxLang..Text
+#: UnitFormLanguage.dfm:3761 UnitFormLanguage.dfm:3822
+msgid "Select Language"
+msgstr ""
+
+#. FormMain..LabelSelectAll..Caption
+#. FormMain..CheckBoxAll..Caption
+#: UnitFormMain.dfm:2734 UnitFormMain.dfm:2773
+msgid "Select All"
+msgstr ""
+
+#. FormMain..LTime..Caption
+#. imprimo los ultimos datos
+#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
+#: UnitFormMain.pas:550
+msgid "Time:"
+msgstr ""
+
+#. FormMain..PopupMenuResult..Copiaralportapapeles1..Caption
+#: UnitFormMain.dfm:2903
+msgid "Copy results to clipboard"
+msgstr ""
+
+#. FormMain..PopupMenuResult..BBCode..Caption
+#: UnitFormMain.dfm:2950
+msgid "Copy results in BBCode"
+msgstr ""
+
+#. FormMain..PopupMenuResult..Guardarresultados1..Caption
+#: UnitFormMain.dfm:2989
+msgid "Save results"
+msgstr ""
+
+#. FormMain..PopupMenuResult..Borrar1..Caption
+#: UnitFormMain.dfm:3036
+msgid "Clear results"
+msgstr ""
+
+#. FormNotice..Warning..Caption
+#: UnitFormNotice.dfm:3638
+msgid "Warning"
+msgstr ""
+
+#: UnitFormNotice.pas:66
+msgid ""
+"This program does not replace any antivirus, this is a sample which a "
+"antivirus set would detected in a disk file. The results that this program "
+"may give may be diferent to which it to a antivirus may give in real time "
+"when executing that file. A encripted file may not be detected it in disc, "
+"but in execution after desencription in memory it is very possible that it "
+"may be detected. So never use this program to substitute the complete "
+"defense that any antivirus may provide. This program downloads free versions "
+"from the pages of the antivirus and these versions may not be trustworthy."
+msgstr ""
+
+#. FormNotice..CheckBoxAccept..Caption
+#: UnitFormNotice.dfm:3689
+msgid "Accept"
+msgstr ""
+
+#. FormNotice..CheckBoxReject..Caption
+#: UnitFormNotice.dfm:3704
+msgid "Reject"
+msgstr ""
+
+#. FormOpciones..Caption
+#: UnitFormOptions.dfm:6
+msgid "Options"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..Caption
+#: UnitFormOptions.dfm:74
+msgid "General Options"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..LLanguage..Caption
+#: UnitFormOptions.dfm:87
+msgid "Language"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..LHeuristic..Caption
+#: UnitFormOptions.dfm:101
+msgid "Heuristic level"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..ChShowAllAvs..Caption
+#: UnitFormOptions.dfm:130
+msgid "View unavailable AVs"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:153
+msgid "Off"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:154
+msgid "Low"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:155
+msgid "Middle"
+msgstr ""
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:156
+msgid "High"
+msgstr ""
+
+#. FormOpciones..ScanOptions..Caption
+#: UnitFormOptions.dfm:164
+msgid "Scan Options"
+msgstr ""
+
+#. FormOpciones..ScanOptions..RBScanFile..Caption
+#: UnitFormOptions.dfm:177
+msgid "Scan file"
+msgstr ""
+
+#. FormOpciones..ScanOptions..RBScanFolder..Caption
+#: UnitFormOptions.dfm:192 UnitFormMain.pas:569
+msgid "Scan folder"
+msgstr ""
+
+#. FormOpciones..ScanOptions..ScanFolderOptions..RBDelInfected..Caption
+#: UnitFormOptions.dfm:213
+msgid "Delete infected files"
+msgstr ""
+
+#. FormOpciones..ScanOptions..ScanFolderOptions..RBFolderReport..Caption
+#: UnitFormOptions.dfm:228
+msgid "Make folder report"
+msgstr ""
+
+#. FormOpciones..AdvanceOptions..Caption
+#: UnitFormOptions.dfm:245
+msgid "Advance Options"
+msgstr ""
+
+#. FormOpciones..AdvanceOptions..ChDebugUpdate..Caption
+#: UnitFormOptions.dfm:259
+msgid "View update process"
+msgstr ""
+
+#. FormOpciones..AdvanceOptions..ChDebugScan..Caption
+#: UnitFormOptions.dfm:274
+msgid "View scan process"
+msgstr ""
+
+#. FormOpciones..AdvanceOptions..ChDebugAll..Caption
+#: UnitFormOptions.dfm:289
+msgid "View debug info"
+msgstr ""
+
+#. FormUpdate..Caption
+#: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
+msgid "Updating"
+msgstr ""
+
+#. el AV Name se pone solo al usar EditName.Text en validateAndSave
+#. ///////////////////////////
+#: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
+msgid "Error loading icon!"
+msgstr ""
+
+#. ExtractStrings([';'], [' '], PChar(MyIni.ReadString(targetName, 'Info', '')), Memo.Lines);
+#: UnitFormAddAV.pas:232
+msgid "Variables for use in execution:"
+msgstr ""
+
+#: UnitFormAddAV.pas:233
+msgid "Path where the executable is located"
+msgstr ""
+
+#: UnitFormAddAV.pas:234
+msgid "File to be scanned"
+msgstr ""
+
+#: UnitFormAddAV.pas:235
+msgid "Report file path"
+msgstr ""
+
+#: UnitFormAddAV.pas:236
+msgid "Variables for use in delimiters:"
+msgstr ""
+
+#: UnitFormAddAV.pas:237
+msgid "The number is the ASCII character to represent"
+msgstr ""
+
+#: UnitFormDownload.pas:52
+msgid "Warning! The installation process already started!"
+msgstr ""
+
+#: UnitFormDownload.pas:60 UnitFormMain.pas:692 UnitFormUpdate.pas:56
+msgid "Error stopping:"
+msgstr ""
+
+#: UnitFormDownload.pas:75 UnitFormUpdate.pas:71
+msgid "Action canceled"
+msgstr ""
+
+#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320
+#: UnitFormMain.pas:355 UnitFormUpdate.pas:108
+msgid "ERROR!"
+msgstr ""
+
+#. no hay nada que descargar
+#: UnitFormDownload.pas:106
+msgid "Select the antivirus that you wish to download"
+msgstr ""
+
+#. Chequeo Status dos veces para evitar fallas
+#. provisoriamente ???
+#. RichEdit1.Lines.Append('');
+#. RichEdit1.Lines.Append('');
+#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
+#: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
+msgid "Executing:"
+msgstr ""
+
+#: UnitFormDownload.pas:195
+msgid "When you finish installing the exe click OK"
+msgstr ""
+
+#: UnitFormDownload.pas:216 UnitFormDownload.pas:218
+msgid "Download OK"
+msgstr ""
+
+#. ERROR! Fallo al descargar!
+#. ERROR! Fallo al descargar!
+#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
+#: UnitFormDownload.pas:236
+msgid "Error downloading!"
+msgstr ""
+
+#. ERROR! No hay link de descarga!
+#: UnitFormDownload.pas:259 UnitFormDownload.pas:261
+msgid "No download link configured!"
+msgstr ""
+
+#. MessageDlg(MsgUpdateBeforeScan, mtConfirmation, [mbOK], 0);
+#: UnitFormDownload.pas:274
+msgid "AVs Downloaded! You don't forget update before scanning"
+msgstr ""
+
+#. if ComboBoxLang.Text = 'Select Language' then
+#: UnitFormLanguage.pas:40
+msgid "Select a language!"
+msgstr ""
+
+#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419
+#: UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
+msgid "Virus not found"
+msgstr ""
+
+#. add language
+#: UnitFormMain.pas:236 UnitFormMain.pas:440
+msgid "Info"
+msgstr ""
+
+#: UnitFormMain.pas:236
+msgid "Date"
+msgstr ""
+
+#: UnitFormMain.pas:236
+msgid "Name"
+msgstr ""
+
+#: UnitFormMain.pas:236
+msgid "Size"
+msgstr ""
+
+#: UnitFormMain.pas:236
+msgid "bytes"
+msgstr ""
+
+#: UnitFormMain.pas:236
+msgid "Detection rate"
+msgstr ""
+
+#. Escaneo de carpeta
+#: UnitFormMain.pas:236 UnitFormMain.pas:431
+msgid "Detections"
+msgstr ""
+
+#: UnitFormMain.pas:257 UnitFormMain.pas:259
+msgid "Report generated by KIMS v3"
+msgstr ""
+
+#: UnitFormMain.pas:270 UnitFormMain.pas:316 UnitFormMain.pas:348
+msgid "Scan a file first!"
+msgstr ""
+
+#. uso la api directamente para tener compatibilidad con V/7
+#: UnitFormMain.pas:333
+msgid "TXT files"
+msgstr ""
+
+#: UnitFormMain.pas:333
+msgid "All files"
+msgstr ""
+
+#: UnitFormMain.pas:406 UnitFormMain.pas:480 UnitFormMain.pas:550
+msgid "sec"
+msgstr ""
+
+#. FormMain.Repaint;
+#. FormMain.Repaint;
+#: UnitFormMain.pas:408 UnitFormMain.pas:482
+msgid "Scanning"
+msgstr ""
+
+#. Muestro estadisticas en el momento
+#: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
+msgid "of"
+msgstr ""
+
+#: UnitFormMain.pas:441
+msgid "First scan:"
+msgstr ""
+
+#: UnitFormMain.pas:442 UnitFormMain.pas:542
+msgid "Last scan:"
+msgstr ""
+
+#: UnitFormMain.pas:442
+msgid "Never"
+msgstr ""
+
+#: UnitFormMain.pas:443 UnitFormMain.pas:543
+msgid "Number of scan files:"
+msgstr ""
+
+#: UnitFormMain.pas:444 UnitFormMain.pas:544
+msgid "Number of detections:"
+msgstr ""
+
+#. Si lo detecta con distinto nombre del que hay en el archivo report
+#: UnitFormMain.pas:501
+msgid "Detected in"
+msgstr ""
+
+#: UnitFormMain.pas:505
+msgid "detected by"
+msgstr ""
+
+#: UnitFormMain.pas:506
+msgid "as"
+msgstr ""
+
+#. sistema de borrado
+#: UnitFormMain.pas:524
+msgid "not deleted, error:"
+msgstr ""
+
+#: UnitFormMain.pas:690
+msgid "Stoped Scan"
+msgstr ""
+
+#: UnitFormUpdate.pas:48
+msgid "Warning! The database can be corrupted!"
+msgstr ""
+
+#: UnitFormUpdate.pas:96
+msgid "Select the antivirus that you wish to update"
+msgstr ""
+
+#: UnitFormUpdate.pas:190 UnitFormUpdate.pas:192
+msgid "Updating OK"
+msgstr ""
+
+#. ERROR! Fallo al descargar!
+#. ERROR! Fallo al descargar!
+#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
+#: UnitFormUpdate.pas:211
+msgid "Error updating!"
+msgstr ""
+
+#. MessageDlg(MsgAVSUpdate,mtConfirmation, [mbOK], 0);
+#: UnitFormUpdate.pas:241
+msgid "AVs Updated!"
+msgstr ""
+
+#: UnitScanners.pas:64
+msgid "Option not available"
+msgstr ""
+
+#. asi se si el archivo existe!
+#. Si de ninguna forma encuentro un report
+#. asi se si el archivo existe!
+#. Si de ninguna forma encuentro un report
+#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
+#: UnitScanners.pas:246 UnitScanners.pas:282
+msgid "An error occurred!"
+msgstr ""
