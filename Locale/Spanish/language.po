@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-01 15:56-0300\n"
+"PO-Revision-Date: 2015-01-04 19:21-0300\n"
 "Last-Translator: DSR! <xchwarze@gmail.com>\n"
 "Language-Team: DSR!\n"
 "Language: es\n"
@@ -168,6 +168,11 @@ msgstr "Obtener el siguiente link del HTML descargado después de la palabra"
 msgid "Action after downloading update"
 msgstr "Acción después de descargar la actualización"
 
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
+#: UnitFormAddAV.dfm:448
+msgid "Instructions for manual update"
+msgstr "Instrucciones para la actualización manual"
+
 #. FormAddAV..PageControl1..TabSheet2..Caption
 #: UnitFormAddAV.dfm:491
 msgid "Scan"
@@ -316,23 +321,11 @@ msgstr "Descargando"
 msgid "Progress:"
 msgstr "Progreso:"
 
-#. FormDownload..Label2..Caption
-#. FormUpdate..Label2..Caption
-#: UnitFormDownload.dfm:43 UnitFormUpdate.dfm:42
-msgid "0%"
-msgstr "0%"
-
 #. FormDownload..Label3..Caption
 #. FormUpdate..Label3..Caption
 #: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
 msgid "Download:"
 msgstr "Descarga:"
-
-#. FormDownload..Label4..Caption
-#. FormUpdate..Label4..Caption
-#: UnitFormDownload.dfm:71 UnitFormUpdate.dfm:70
-msgid "0 kb"
-msgstr "0 kb"
 
 #. FormDownload..ButtonCancel..Caption
 #. FormUpdate..ButtonCancel..Caption
@@ -353,7 +346,6 @@ msgid "Select All"
 msgstr "Todos"
 
 #. FormMain..LTime..Caption
-#. imprimo los ultimos datos
 #: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
 #: UnitFormMain.pas:550
 msgid "Time:"
@@ -392,9 +384,8 @@ msgid ""
 "when executing that file. A encripted file may not be detected it in disc, "
 "but in execution after desencription in memory it is very possible that it "
 "may be detected. So never use this program to substitute the complete "
-"defense that any antivirus may provide. This program downloads free "
-"versions from the pages of the antivirus and these versions may not be "
-"trustworthy."
+"defense that any antivirus may provide. This program downloads free versions "
+"from the pages of the antivirus and these versions may not be trustworthy."
 msgstr ""
 "Este programa NO sustituye a ningún antivirus, solo es una muestra, de lo "
 "que un conjunto de antivirus detectaría en un archivo en disco. No tienen "
@@ -492,33 +483,29 @@ msgstr "Crear reporte de carpeta"
 msgid "Advance Options"
 msgstr "Opciones avanzadas"
 
-#. FormOpciones..AdvanceOptions..ChDebugUpdate..Caption
+#. FormOpciones..AdvanceOptions..ChQuietInstall..Caption
 #: UnitFormOptions.dfm:259
-msgid "View update process"
-msgstr "Mostrar proceso de actualización"
+msgid "View install/update process"
+msgstr "Ver proceso de instalación/actualización"
 
-#. FormOpciones..AdvanceOptions..ChDebugScan..Caption
+#. FormOpciones..AdvanceOptions..ChDebugSWShow..Caption
 #: UnitFormOptions.dfm:274
-msgid "View scan process"
-msgstr "Mostrar proceso de scaneo"
+msgid "View all process (force SW_SHOW)"
+msgstr "Ver todos los procesos (forzar SW_SHOW)"
 
 #. FormOpciones..AdvanceOptions..ChDebugAll..Caption
 #: UnitFormOptions.dfm:289
 msgid "View debug info"
 msgstr "Ver información de depuración"
 
-#. FormUpdate..Caption
 #: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
 msgid "Updating"
 msgstr "Actualizando"
 
-#. el AV Name se pone solo al usar EditName.Text en validateAndSave
-#. ///////////////////////////
 #: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
 msgid "Error loading icon!"
 msgstr "Error al cargar icono!"
 
-#. ExtractStrings([';'], [' '], PChar(MyIni.ReadString(targetName, 'Info', '')), Memo.Lines);
 #: UnitFormAddAV.pas:232
 msgid "Variables for use in execution:"
 msgstr "Variables para su uso en ejecución:"
@@ -560,17 +547,12 @@ msgstr "Acción cancelada"
 msgid "ERROR!"
 msgstr "¡ERROR!"
 
-#. no hay nada que descargar
 #: UnitFormDownload.pas:106
 msgid "Select the antivirus that you wish to download"
 msgstr "Seleccione el antivirus que desea descargar"
 
-#. Chequeo Status dos veces para evitar fallas
-#. provisoriamente ???
-#. RichEdit1.Lines.Append('');
-#. RichEdit1.Lines.Append('');
-#: UnitFormDownload.pas:176 UnitFormDownload.pas:201
-#: UnitFormDownload.pas:247 UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
+#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
+#: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
 msgid "Executing:"
 msgstr "Ejecución:"
 
@@ -582,22 +564,18 @@ msgstr "Cuando termina de instalar el archivo exe, haga clic en aceptar"
 msgid "Download OK"
 msgstr "Descarga OK"
 
-#. ERROR! Fallo al descargar!
-#. ERROR! Fallo al descargar!
-#: UnitFormDownload.pas:224 UnitFormDownload.pas:226
-#: UnitFormDownload.pas:234 UnitFormDownload.pas:236
+#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
+#: UnitFormDownload.pas:236
 msgid "Error downloading!"
 msgstr "Error en la descarga!"
 
-#. ERROR! No hay link de descarga!
 #: UnitFormDownload.pas:259 UnitFormDownload.pas:261
 msgid "No download link configured!"
 msgstr "Ningún enlace de descarga configurado!"
 
-#. MessageDlg(MsgUpdateBeforeScan, mtConfirmation, [mbOK], 0);
-#: UnitFormDownload.pas:274
-msgid "AVs Downloaded! You don't forget update before scanning"
-msgstr "AVs descargados! No te olvides actualizar antes de escanear"
+#: UnitFormUpdate.pas:68
+msgid "AVs Downloaded! don't forget to update before scanning"
+msgstr "AVs descargados! no se olvide de actualizar antes de escanear"
 
 #. if ComboBoxLang.Text = 'Select Language' then
 #: UnitFormLanguage.pas:40
@@ -647,7 +625,6 @@ msgstr "Reporte generado por KIMS v3"
 msgid "Scan a file first!"
 msgstr "Escanea un archivo primero!"
 
-#. uso la api directamente para tener compatibilidad con V/7
 #: UnitFormMain.pas:333
 msgid "TXT files"
 msgstr "Archivos TXT"
@@ -704,7 +681,6 @@ msgstr "detectado por"
 msgid "as"
 msgstr "es"
 
-#. sistema de borrado
 #: UnitFormMain.pas:524
 msgid "not deleted, error:"
 msgstr "No borrado, error:"
@@ -725,26 +701,19 @@ msgstr "Seleccione el antivirus que desea actualizar"
 msgid "Updating OK"
 msgstr "Actualizado OK"
 
-#. ERROR! Fallo al descargar!
-#. ERROR! Fallo al descargar!
 #: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
 #: UnitFormUpdate.pas:211
 msgid "Error updating!"
 msgstr "Error actualizando!"
 
-#. MessageDlg(MsgAVSUpdate,mtConfirmation, [mbOK], 0);
-#: UnitFormUpdate.pas:241
-msgid "AVs Updated!"
-msgstr "AVs actualizados!"
+#: UnitFormUpdate.pas:86
+msgid "AVs Updated! don't forget to update frecuently"
+msgstr "AVs Actualizada! no se olvide de actualizarlos frecuentes"
 
 #: UnitScanners.pas:64
 msgid "Option not available"
 msgstr "La opción no está disponible"
 
-#. asi se si el archivo existe!
-#. Si de ninguna forma encuentro un report
-#. asi se si el archivo existe!
-#. Si de ninguna forma encuentro un report
 #: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
 #: UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"

@@ -1,5 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# KIMS 3 - ??????
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -7,41 +6,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-01 16:03-0300\n"
+"PO-Revision-Date: 2015-01-01 15:57-0300\n"
 "Last-Translator: \n"
-"Language-Team: Encryter/DSR! <xchwarze@gmail.com>\n"
-"Language: fr\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.7.1\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. FormAbout..Caption
 #: UnitFormAbout.dfm:5
 msgid "About"
-msgstr "À propos"
+msgstr ""
 
 #. FormAbout..labelAuthor..Caption
 #: UnitFormAbout.dfm:3638
 msgid "Author:"
-msgstr "Auteur :"
+msgstr ""
 
 #. FormAbout..labelDate..Caption
 #: UnitFormAbout.dfm:3666
 msgid "Date:"
-msgstr "Date de:"
+msgstr ""
 
 #. FormAbout..labelThanks..Caption
 #: UnitFormAbout.dfm:3680
 msgid "Thanks to:"
-msgstr "Remerciements à :"
+msgstr ""
 
 #. FormAbout..labelContact..Caption
 #: UnitFormAbout.dfm:3708
 msgid "Web:"
-msgstr "Web :"
+msgstr ""
 
 #. FormAddAV..Caption
 #: UnitFormAddAV.dfm:4
@@ -61,7 +57,7 @@ msgstr ""
 #. FormAddAV..ButtonExtEdit..Caption
 #: UnitFormAddAV.dfm:97
 msgid "Open in external editor"
-msgstr "Ouvert dans l'éditeur externe"
+msgstr ""
 
 #. FormAddAV..ButtonSave..Caption
 #. FormLanguage..ButtonSave..Caption
@@ -74,7 +70,7 @@ msgstr ""
 #. FormMain..ListViewResult......Caption
 #: UnitFormAddAV.dfm:234 UnitFormMain.dfm:2809
 msgid "AV"
-msgstr "AV"
+msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..Caption
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
@@ -168,6 +164,11 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
 #: UnitFormAddAV.dfm:450
 msgid "Action after downloading update"
+msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
+#: UnitFormAddAV.dfm:448
+msgid "Instructions for manual update"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet2..Caption
@@ -318,22 +319,10 @@ msgstr ""
 msgid "Progress:"
 msgstr ""
 
-#. FormDownload..Label2..Caption
-#. FormUpdate..Label2..Caption
-#: UnitFormDownload.dfm:43 UnitFormUpdate.dfm:42
-msgid "0%"
-msgstr ""
-
 #. FormDownload..Label3..Caption
 #. FormUpdate..Label3..Caption
 #: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
 msgid "Download:"
-msgstr ""
-
-#. FormDownload..Label4..Caption
-#. FormUpdate..Label4..Caption
-#: UnitFormDownload.dfm:71 UnitFormUpdate.dfm:70
-msgid "0 kb"
 msgstr ""
 
 #. FormDownload..ButtonCancel..Caption
@@ -355,7 +344,6 @@ msgid "Select All"
 msgstr ""
 
 #. FormMain..LTime..Caption
-#. imprimo los ultimos datos
 #: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
 #: UnitFormMain.pas:550
 msgid "Time:"
@@ -384,7 +372,7 @@ msgstr ""
 #. FormNotice..Warning..Caption
 #: UnitFormNotice.dfm:3638
 msgid "Warning"
-msgstr "Avis"
+msgstr ""
 
 #: UnitFormNotice.pas:66
 msgid ""
@@ -397,46 +385,36 @@ msgid ""
 "defense that any antivirus may provide. This program downloads free versions "
 "from the pages of the antivirus and these versions may not be trustworthy."
 msgstr ""
-"Ce programme ne remplace pas un antivirus, c'est seulement un échantillon de "
-"ce qu'est un jeu de antivirus peuvent détecter dans un fichier sur le "
-"disque. Ils n'ont rien à voir avec les résultats que ce programme peut "
-"donner à ceux qui prennent un antivirus en temps réel lorsque vous exécutez "
-"ce fichier. Un fichier chiffré / comprimé c'est posible il ne peut pas le "
-"détecter sur le disque, mais courir après décrypté / descomprimise dans la "
-"mémoire est susceptible d'être détectée. Donc, vous n'utilisez jamais ce "
-"programme comme un substitut à un programme de défense anti-virus complète "
-"qui fournit toute antivirus. Ce seulement télécharger des versions gratuites "
-"de ces versions d'antivirus pages n'ont pas à être fiable à 100%."
 
 #. FormNotice..CheckBoxAccept..Caption
 #: UnitFormNotice.dfm:3689
 msgid "Accept"
-msgstr "Accepter"
+msgstr ""
 
 #. FormNotice..CheckBoxReject..Caption
 #: UnitFormNotice.dfm:3704
 msgid "Reject"
-msgstr "Rejeter"
+msgstr ""
 
 #. FormOpciones..Caption
 #: UnitFormOptions.dfm:6
 msgid "Options"
-msgstr "﻿Options"
+msgstr ""
 
 #. FormOpciones..GeneralOptions..Caption
 #: UnitFormOptions.dfm:74
 msgid "General Options"
-msgstr "Options générales"
+msgstr ""
 
 #. FormOpciones..GeneralOptions..LLanguage..Caption
 #: UnitFormOptions.dfm:87
 msgid "Language"
-msgstr "Langue"
+msgstr ""
 
 #. FormOpciones..GeneralOptions..LHeuristic..Caption
 #: UnitFormOptions.dfm:101
 msgid "Heuristic level"
-msgstr "Niveau heuristique"
+msgstr ""
 
 #. FormOpciones..GeneralOptions..ChShowAllAvs..Caption
 #: UnitFormOptions.dfm:130
@@ -493,14 +471,14 @@ msgstr ""
 msgid "Advance Options"
 msgstr ""
 
-#. FormOpciones..AdvanceOptions..ChDebugUpdate..Caption
+#. FormOpciones..AdvanceOptions..ChQuietInstall..Caption
 #: UnitFormOptions.dfm:259
-msgid "View update process"
+msgid "View install/update process"
 msgstr ""
 
-#. FormOpciones..AdvanceOptions..ChDebugScan..Caption
+#. FormOpciones..AdvanceOptions..ChDebugSWShow..Caption
 #: UnitFormOptions.dfm:274
-msgid "View scan process"
+msgid "View all process (force SW_SHOW)"
 msgstr ""
 
 #. FormOpciones..AdvanceOptions..ChDebugAll..Caption
@@ -513,13 +491,10 @@ msgstr ""
 msgid "Updating"
 msgstr ""
 
-#. el AV Name se pone solo al usar EditName.Text en validateAndSave
-#. ///////////////////////////
 #: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
 msgid "Error loading icon!"
 msgstr ""
 
-#. ExtractStrings([';'], [' '], PChar(MyIni.ReadString(targetName, 'Info', '')), Memo.Lines);
 #: UnitFormAddAV.pas:232
 msgid "Variables for use in execution:"
 msgstr ""
@@ -561,15 +536,10 @@ msgstr ""
 msgid "ERROR!"
 msgstr ""
 
-#. no hay nada que descargar
 #: UnitFormDownload.pas:106
 msgid "Select the antivirus that you wish to download"
 msgstr ""
 
-#. Chequeo Status dos veces para evitar fallas
-#. provisoriamente ???
-#. RichEdit1.Lines.Append('');
-#. RichEdit1.Lines.Append('');
 #: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
 #: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
 msgid "Executing:"
@@ -583,24 +553,16 @@ msgstr ""
 msgid "Download OK"
 msgstr ""
 
-#. ERROR! Fallo al descargar!
-#. ERROR! Fallo al descargar!
 #: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
 #: UnitFormDownload.pas:236
 msgid "Error downloading!"
 msgstr ""
 
-#. ERROR! No hay link de descarga!
-#: UnitFormDownload.pas:259 UnitFormDownload.pas:261
-msgid "No download link configured!"
+#: UnitFormUpdate.pas:68
+msgid "AVs Downloaded! don't forget to update before "
+"scanning"
 msgstr ""
 
-#. MessageDlg(MsgUpdateBeforeScan, mtConfirmation, [mbOK], 0);
-#: UnitFormDownload.pas:274
-msgid "AVs Downloaded! You don't forget update before scanning"
-msgstr ""
-
-#. if ComboBoxLang.Text = 'Select Language' then
 #: UnitFormLanguage.pas:40
 msgid "Select a language!"
 msgstr ""
@@ -610,7 +572,6 @@ msgstr ""
 msgid "Virus not found"
 msgstr ""
 
-#. add language
 #: UnitFormMain.pas:236 UnitFormMain.pas:440
 msgid "Info"
 msgstr ""
@@ -635,7 +596,6 @@ msgstr ""
 msgid "Detection rate"
 msgstr ""
 
-#. Escaneo de carpeta
 #: UnitFormMain.pas:236 UnitFormMain.pas:431
 msgid "Detections"
 msgstr ""
@@ -648,7 +608,6 @@ msgstr ""
 msgid "Scan a file first!"
 msgstr ""
 
-#. uso la api directamente para tener compatibilidad con V/7
 #: UnitFormMain.pas:333
 msgid "TXT files"
 msgstr ""
@@ -662,57 +621,53 @@ msgid "sec"
 msgstr ""
 
 #. FormMain.Repaint;
-#. FormMain.Repaint;
-#: UnitFormMain.pas:408 UnitFormMain.pas:482
+#: UnitFormMain.pas:482
 msgid "Scanning"
 msgstr ""
 
-#. Muestro estadisticas en el momento
 #: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
 msgid "of"
-msgstr "de"
+msgstr ""
 
 #: UnitFormMain.pas:441
 msgid "First scan:"
-msgstr "Première analyse :"
+msgstr ""
 
 #: UnitFormMain.pas:442 UnitFormMain.pas:542
 msgid "Last scan:"
-msgstr "Dernier scan :"
+msgstr ""
 
 #: UnitFormMain.pas:442
 msgid "Never"
-msgstr "﻿Jamais"
+msgstr ""
 
 #: UnitFormMain.pas:443 UnitFormMain.pas:543
 msgid "Number of scan files:"
-msgstr "Nombre de fichiers d'analyse :"
+msgstr ""
 
 #: UnitFormMain.pas:444 UnitFormMain.pas:544
 msgid "Number of detections:"
-msgstr "Nombre de détections :"
+msgstr ""
 
-#. Si lo detecta con distinto nombre del que hay en el archivo report
 #: UnitFormMain.pas:501
 msgid "Detected in"
-msgstr "Détecté dans"
+msgstr ""
 
 #: UnitFormMain.pas:505
 msgid "detected by"
-msgstr "détectés par"
+msgstr ""
 
 #: UnitFormMain.pas:506
 msgid "as"
-msgstr "comme"
+msgstr ""
 
-#. sistema de borrado
 #: UnitFormMain.pas:524
 msgid "not deleted, error:"
-msgstr "pas supprimé, erreur :"
+msgstr ""
 
 #: UnitFormMain.pas:690
 msgid "Stoped Scan"
-msgstr "Scan effondré"
+msgstr ""
 
 #: UnitFormUpdate.pas:48
 msgid "Warning! The database can be corrupted!"
@@ -726,77 +681,21 @@ msgstr ""
 msgid "Updating OK"
 msgstr ""
 
-#. ERROR! Fallo al descargar!
-#. ERROR! Fallo al descargar!
 #: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
 #: UnitFormUpdate.pas:211
 msgid "Error updating!"
 msgstr ""
 
-#. MessageDlg(MsgAVSUpdate,mtConfirmation, [mbOK], 0);
-#: UnitFormUpdate.pas:241
-msgid "AVs Updated!"
+#: UnitFormUpdate.pas:86
+msgid "AVs Updated! don't forget to update "
+"frecuently"
 msgstr ""
 
 #: UnitScanners.pas:64
 msgid "Option not available"
 msgstr ""
 
-#. asi se si el archivo existe!
-#. Si de ninguna forma encuentro un report
-#. asi se si el archivo existe!
-#. Si de ninguna forma encuentro un report
 #: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
 #: UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"
 msgstr ""
-
-#~ msgid ""
-#~ "This program does not replace any antivirus, this is a sample which a "
-#~ msgstr ""
-#~ "Ce programme ne remplace pas un antivirus, c'est seulement un échantillon "
-#~ "de ce qu'est "
-
-#~ msgid ""
-#~ "antivirus set would detected in a disk file. The results that this "
-#~ "program "
-#~ msgstr ""
-#~ "un jeu de antivirus peuvent détecter dans un fichier sur le disque. Ils "
-#~ "n'ont rien à "
-
-#~ msgid ""
-#~ "may give may be diferent to which it to a antivirus may give in real time "
-#~ msgstr ""
-#~ "voir avec les résultats que ce programme peut donner à ceux qui prennent "
-#~ "un antivirus"
-
-#~ msgid ""
-#~ "when executing that file. A encripted file may not be detected it in "
-#~ msgstr ""
-#~ "en temps réel lorsque vous exécutez ce fichier. Un fichier chiffré / "
-#~ "comprimé c'est "
-
-#~ msgid ""
-#~ "disc, but in execution after desencription in memory it is very possible "
-#~ msgstr ""
-#~ "posible il ne peut pas le détecter sur le disque, mais courir après "
-#~ "décrypté / descomprimise "
-
-#~ msgid ""
-#~ "that it may be detected. So never use this program to substitute the "
-#~ msgstr ""
-#~ "dans la mémoire est susceptible d'être détectée. Donc, vous n'utilisez "
-#~ "jamais ce programme "
-
-#~ msgid "complete defense that any antivirus may provide. This program "
-#~ msgstr ""
-#~ "comme un substitut à un programme de défense anti-virus complète qui "
-#~ "fournit toute antivirus. "
-
-#~ msgid "downloads free versions from the pages of the antivirus and these "
-#~ msgstr ""
-#~ "Ce seulement télécharger des versions gratuites de ces versions "
-#~ "d'antivirus pages n'ont "
-
-#~ msgid "versions may not be trustworthy."
-#~ msgstr "pas à être fiable à 100%."
