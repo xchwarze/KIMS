@@ -7,6 +7,11 @@ on INI files.
 CHANGELOG KIMS
 ------------------------
 
+v3.0.2 - 09/01/2015
+	[+] Se pueden agregar Herramientas, las mismas se listan despues de los avs.
+	[*] Cambiado comportamiento en deletefolder
+	[*] Algunos cambios menores	
+
 v3.0.1 - 05/01/2015
 	[*] Todo el form de descargas/actualizaciones fue re escrito.
 		AHORA EL MISMO PUEDE INTERACTUAR CON LOS SCRIPTS QUE NECESITEN DE PRESIONAR UNA TECLA PARA CONTINUAR
