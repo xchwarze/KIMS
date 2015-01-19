@@ -9,24 +9,23 @@ echo.
 echo.
 
 echo [*] Preparing files
-mkdir "%cd%\Scans\TrendMicro"
-Data\bin\7z.exe e -o"%cd%\Scans\TrendMicro\" -y "%cd%\Downloads\ScanTrend Micro.zip"
-cd "%cd%\Scans\TrendMicro"
+mkdir Scans\TrendMicro
+Data\bin\7z.exe e -o"Scans\TrendMicro\" -y "Downloads\ScanTrendMicro.zip"
 echo.
 
 echo [*] Execute fake run and wait 10 seconds
 echo     DONT NOT TOUCH ANYTHING!!!
-start /separate Data\bin\hidcon.exe "%cd%\Scans\TrendMicro\SysClean.com"
-ping 127.0.0.1 > nul
+cd Scans\TrendMicro
+start /separate ..\..\Data\bin\hidcon.exe "%cd%\SysClean.com"
 ping 127.0.0.1 > nul
 echo.
 
 echo [*] Kill all and force install
-TASKKILL /F /IM SysClean.com /IM sysclean.exe
-copy "%cd%\Scans\TrendMicro\vscantm.bin" "%cd%\Scans\TrendMicro\vscantm.exe"
-Data\bin\7z.exe x -o"%cd%\Scans\TrendMicro\" -y Data\Bajar_TrendMicro.DSR!
-del "%cd%\Scans\TrendMicro\SysClean.com"
+TASKKILL /F /IM SysClean.com
+TASKKILL /F /IM sysclean.exe
+copy vscantm.bin vscantm.exe
+..\..\Data\bin\7z.exe x -o"%cd%" -y ..\..\Data\Bajar_TrendMicro.DSR!
+del SysClean.com
 echo.
 
 echo [*] Done
-ping 127.0.0.1 > nul
