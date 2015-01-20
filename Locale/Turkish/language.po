@@ -1,4 +1,4 @@
-# KIMS 3 - ??????
+# KIMS 3 - Turkish
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,13 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-01 15:57-0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-01-19 23:59-0300\n"
+"Last-Translator: makets\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
+"Language: tr\n"
 
 #. FormAbout..Caption
 #: UnitFormAbout.dfm:5
@@ -22,240 +23,247 @@ msgstr ""
 #. FormAbout..labelAuthor..Caption
 #: UnitFormAbout.dfm:3638
 msgid "Author:"
-msgstr ""
+msgstr "Yazar:"
 
 #. FormAbout..labelDate..Caption
 #: UnitFormAbout.dfm:3666
 msgid "Date:"
-msgstr ""
+msgstr "Tarih:"
 
 #. FormAbout..labelThanks..Caption
 #: UnitFormAbout.dfm:3680
 msgid "Thanks to:"
-msgstr ""
+msgstr "Tesekkür:"
 
 #. FormAbout..labelContact..Caption
 #: UnitFormAbout.dfm:3708
 msgid "Web:"
-msgstr ""
+msgstr "Temas:"
 
 #. FormAddAV..Caption
 #: UnitFormAddAV.dfm:4
 msgid "AVs Editor"
-msgstr ""
+msgstr "Antivirüs düzenleyici"
 
 #. FormAddAV..LabelForum..Caption
-#: UnitFormAddAV.dfm:31
+#: UnitFormAddAV.dfm:30
 msgid "Go to the AVs forum!"
-msgstr ""
+msgstr "Go to the AVs forum!"
 
 #. FormAddAV..ButtonReload..Caption
-#: UnitFormAddAV.dfm:52
+#: UnitFormAddAV.dfm:51
 msgid "Reload Config"
 msgstr ""
 
 #. FormAddAV..ButtonExtEdit..Caption
-#: UnitFormAddAV.dfm:97
+#: UnitFormAddAV.dfm:96
 msgid "Open in external editor"
-msgstr ""
+msgstr "Harici düzenleyiciyi aç"
 
 #. FormAddAV..ButtonSave..Caption
 #. FormLanguage..ButtonSave..Caption
 #. FormOpciones..ButtonSave..Caption
-#: UnitFormAddAV.dfm:186 UnitFormLanguage.dfm:3776 UnitFormOptions.dfm:29
+#: UnitFormAddAV.dfm:185 UnitFormLanguage.dfm:3775 UnitFormOptions.dfm:29
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #. FormAddAV..ListViewAVs......Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:234 UnitFormMain.dfm:2809
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:233 UnitFormAddAV.dfm:512
 msgid "AV"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..Caption
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
-#: UnitFormAddAV.dfm:259 UnitFormAddAV.dfm:339
+#: UnitFormAddAV.dfm:258 UnitFormAddAV.dfm:345
 msgid "Installation"
-msgstr ""
+msgstr "Yükleme"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelAVPath..Caption
-#: UnitFormAddAV.dfm:268
+#: UnitFormAddAV.dfm:267
 msgid "Antivirus path"
-msgstr ""
+msgstr "Antivirüs dizini"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelName..Caption
-#: UnitFormAddAV.dfm:275
-msgid "Av name"
-msgstr ""
+#: UnitFormAddAV.dfm:274 UnitFormMain.pas:244
+msgid "Ad"
+msgstr "Ad"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelReportPath..Caption
-#: UnitFormAddAV.dfm:282
+#: UnitFormAddAV.dfm:281
 msgid "Report Path"
-msgstr ""
+msgstr "Rapor dizini"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelIcon..Caption
-#: UnitFormAddAV.dfm:296
+#: UnitFormAddAV.dfm:295
 msgid "Icon"
+msgstr "Ikon"
+
+#. FormAddAV..PageControl1..TabSheet1..LabelType..Caption
+#: UnitFormAddAV.dfm:302
+msgid "Type"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownload..Caption
-#: UnitFormAddAV.dfm:348
+#: UnitFormAddAV.dfm:354
 msgid "Download URL"
-msgstr ""
+msgstr "Ýndirme Linki"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelHTMLNearLink..Caption
-#: UnitFormAddAV.dfm:355
+#: UnitFormAddAV.dfm:361
 msgid "Grab download link before this in the HTML code"
-msgstr ""
+msgstr "HTML kodta yer almadan download linkini çek"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownloadShellexe..Caption
 #: UnitFormAddAV.dfm:362
 msgid "Action after downloading"
-msgstr ""
+msgstr "Ýndirdikten sonraki iþ"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelInstallNotes..Caption
-#: UnitFormAddAV.dfm:369
+#: UnitFormAddAV.dfm:377
 msgid "Instructions for manual installation"
-msgstr ""
+msgstr "Manuel yükleme için talimatlar"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:383
 msgid "Instructions"
-msgstr ""
+msgstr "Talimatlar"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:384
 msgid "Command to execute"
-msgstr ""
+msgstr "Çalýþtýrma komutu"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:418 UnitFormAddAV.dfm:481 UnitFormAddAV.dfm:557
-#: UnitFormAddAV.dfm:645
+#: UnitFormAddAV.dfm:671
 msgid "Left delimiter"
-msgstr ""
+msgstr "Sol sýnýrlayýcý"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:419 UnitFormAddAV.dfm:482 UnitFormAddAV.dfm:558
-#: UnitFormAddAV.dfm:646
+#: UnitFormAddAV.dfm:672
 msgid "Right delimiter"
-msgstr ""
+msgstr "Sað sýnýrlayýcý"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..Caption
 #: UnitFormAddAV.dfm:426
 msgid "Update"
-msgstr ""
+msgstr "Güncelle"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdate..Caption
-#: UnitFormAddAV.dfm:436
+#: UnitFormAddAV.dfm:434
 msgid "Update download URL"
-msgstr ""
+msgstr "Ýndirme linkini güncelle"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelHTMLNearLink2..Caption
-#: UnitFormAddAV.dfm:443
+#: UnitFormAddAV.dfm:441
 msgid "Grab update link before this in the HTML code"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
-#: UnitFormAddAV.dfm:450
+#: UnitFormAddAV.dfm:449
 msgid "Action after downloading update"
-msgstr ""
+msgstr "Güncellemeden sonraki iþ"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
-#: UnitFormAddAV.dfm:448
+#: UnitFormAddAV.dfm:457
 msgid "Instructions for manual update"
 msgstr ""
 
-#. FormAddAV..PageControl1..TabSheet2..Caption
-#: UnitFormAddAV.dfm:491
-msgid "Scan"
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:513
+msgid "Tool"
 msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..Caption
+#: UnitFormAddAV.dfm:517
+msgid "Scan"
+msgstr "Tara"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelAnalisisParameters..Caption
-#: UnitFormAddAV.dfm:501
+#: UnitFormAddAV.dfm:527
 msgid "Parameters for different types scan"
-msgstr ""
+msgstr "Farklý tarama için parametreler"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelExecutionType..Caption
-#: UnitFormAddAV.dfm:508
+#: UnitFormAddAV.dfm:534
 msgid "Execution Type"
-msgstr ""
+msgstr "Çalýþtýrma tipi"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPreScan..Caption
-#: UnitFormAddAV.dfm:515
+#: UnitFormAddAV.dfm:541
 msgid "Run before scanning"
-msgstr ""
+msgstr "Taramadan önce çalýþtýr"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPostScan..Caption
-#: UnitFormAddAV.dfm:522
+#: UnitFormAddAV.dfm:548
 msgid "Run after scanning"
-msgstr ""
+msgstr "Taramadan sonra çalýþtýr"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelDilimiters..Caption
-#: UnitFormAddAV.dfm:529
+#: UnitFormAddAV.dfm:555
 msgid "Delimiters for extract report result"
-msgstr ""
+msgstr "Tarama sonucunu çýkarmak için sýnýrlayýcýlar"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:540 UnitFormMain.dfm:2814
-msgid "Result"
-msgstr ""
+#: UnitFormAddAV.dfm:566
+msgid "Sonuçlar"
+msgstr "Sonuç"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..Caption
-#: UnitFormAddAV.dfm:565
+#: UnitFormAddAV.dfm:591
 msgid "Junk"
-msgstr ""
+msgstr "Pozitif yanlis"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..BitBtnJunk..Caption
-#: UnitFormAddAV.dfm:594
+#: UnitFormAddAV.dfm:620
 msgid "Add!"
-msgstr ""
+msgstr "Eklemek"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..Caption
-#: UnitFormAddAV.dfm:627
+#: UnitFormAddAV.dfm:653
 msgid "Error report"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:661
+#: UnitFormAddAV.dfm:687
 msgid "Base parameter="
-msgstr ""
+msgstr "Temel parametre="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:662
+#: UnitFormAddAV.dfm:688
 msgid "Heuristic off="
-msgstr ""
+msgstr "Sezgisel kapalý="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:663
+#: UnitFormAddAV.dfm:689
 msgid "Low heuristic="
-msgstr ""
+msgstr "Sezgisel düþük="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:664
+#: UnitFormAddAV.dfm:690
 msgid "Medium heuristic="
-msgstr ""
+msgstr "Sezgisel orta="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:665
+#: UnitFormAddAV.dfm:691
 msgid "High heuristic="
-msgstr ""
+msgstr "Sezgisel yüksek="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:668
+#: UnitFormAddAV.dfm:694
 msgid "Analysis type"
-msgstr ""
+msgstr "Analiz türü"
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:669
 msgid "Parameters"
-msgstr ""
+msgstr "Parametreler"
 
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType..Text
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
@@ -282,25 +290,23 @@ msgstr ""
 #. FormAddAV..PopupMenuInstall..addAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Add1..Caption
 #. FormAddAV..PopupMenuError..AddError..Caption
-#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951
-#: UnitFormAddAV.dfm:1025
+#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951 UnitFormAddAV.dfm:1025
 msgid "Add"
-msgstr ""
+msgstr "Eklemek"
 
 #. FormAddAV..PopupMenuDelimitadores..delDelim..Caption
 #. FormAddAV..PopupMenuJunk..Del1..Caption
 #. FormAddAV..PopupMenuInstall..delAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Del2..Caption
 #. FormAddAV..PopupMenuError..DelError..Caption
-#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916
-#: UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
+#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916 UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
 msgid "Del"
-msgstr ""
+msgstr "Silmek"
 
 #. FormAddAV..PopupMenuJunk..DelAll1..Caption
 #: UnitFormAddAV.dfm:850
 msgid "Del All"
-msgstr ""
+msgstr "Tüm temizle"
 
 #. FormDebug..Caption
 #. FormMain..Memo....Lines.Strings
@@ -310,26 +316,26 @@ msgstr ""
 
 #. FormDownload..Caption
 #: UnitFormDownload.dfm:4 UnitFormDownload.pas:119
-msgid "Downloading"
-msgstr ""
+msgid "Ýndiriliyor"
+msgstr "Ýndiriliyor"
 
 #. FormDownload..Label1..Caption
 #. FormUpdate..Label1..Caption
 #: UnitFormDownload.dfm:29 UnitFormUpdate.dfm:28
 msgid "Progress:"
-msgstr ""
+msgstr "Ýlerleme"
 
 #. FormDownload..Label3..Caption
 #. FormUpdate..Label3..Caption
 #: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
 msgid "Download:"
-msgstr ""
+msgstr "Ýndir:"
 
 #. FormDownload..ButtonCancel..Caption
 #. FormUpdate..ButtonCancel..Caption
 #: UnitFormDownload.dfm:85 UnitFormUpdate.dfm:84
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #. FormLanguage..Label5..Caption
 #. FormLanguage..ComboBoxLang..Text
@@ -341,85 +347,78 @@ msgstr ""
 #. FormMain..CheckBoxAll..Caption
 #: UnitFormMain.dfm:2734 UnitFormMain.dfm:2773
 msgid "Select All"
-msgstr ""
+msgstr "Hepsini Seç"
 
 #. FormMain..LTime..Caption
-#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
-#: UnitFormMain.pas:550
+#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480 UnitFormMain.pas:550
 msgid "Time:"
-msgstr ""
+msgstr "Süre:"
 
 #. FormMain..PopupMenuResult..Copiaralportapapeles1..Caption
 #: UnitFormMain.dfm:2903
 msgid "Copy results to clipboard"
-msgstr ""
+msgstr "Sonuçlarý klavyeye kopyala"
 
 #. FormMain..PopupMenuResult..BBCode..Caption
 #: UnitFormMain.dfm:2950
 msgid "Copy results in BBCode"
-msgstr ""
+msgstr "Sonuçlarý BBCode a dönüþtür"
 
 #. FormMain..PopupMenuResult..Guardarresultados1..Caption
 #: UnitFormMain.dfm:2989
 msgid "Save results"
-msgstr ""
+msgstr "Sonuçlarý kaydet"
 
 #. FormMain..PopupMenuResult..Borrar1..Caption
 #: UnitFormMain.dfm:3036
 msgid "Clear results"
-msgstr ""
+msgstr "Sonuçlarý temizle"
 
 #. FormNotice..Warning..Caption
 #: UnitFormNotice.dfm:3638
-msgid "Warning"
-msgstr ""
+msgid "Uyarý"
+msgstr "Uyarý"
 
 #: UnitFormNotice.pas:66
 msgid ""
-"This program does not replace any antivirus, this is a sample which a "
-"antivirus set would detected in a disk file. The results that this program "
-"may give may be diferent to which it to a antivirus may give in real time "
-"when executing that file. A encripted file may not be detected it in disc, "
-"but in execution after desencription in memory it is very possible that it "
-"may be detected. So never use this program to substitute the complete "
-"defense that any antivirus may provide. This program downloads free versions "
-"from the pages of the antivirus and these versions may not be trustworthy."
-msgstr ""
+"This program does not replace any antivirus, this is a sample which a antivirus set would detected in a disk file. The results that this program may give may be diferent to which it to a antivirus may give in real time when executing that file. A encripted file may not be detected it in disc, but in execution after desencription in memory it is very possible that it may be detected. So never use this program to substitute the complete defense that any antivirus may provide. This program downloads free versions from the pages of the antivirus and "
+"these versions may not be trustworthy."
+msgstr "Bu program hiç bir antivirüsün yerini tutmaz, Bu yazýlým diskteki bir dosyanýn tarama sonucunu veren bir antivirüs setinin örneðidir. Sonuçlar bazen gerçek antivirüs taramasýyla elde edilen sonuçlarla ayný olmayabilir. Þifrelenmiþ bir dosya diskte taranýrken tespit edilemeyebilir, fakat deþifrelenerek bellekte çalýþýrken tespit edilme ihtimali çok yüksektir. Bu yüzden antiviriüsün saðladýðý tam koruma için bu programý kullanmanýz önerilmez. Bu program antivirüs sayfalarýndan ücretsiz sürümlerini indirir ve bu sürümler güvenli olmayabilir. "
 
 #. FormNotice..CheckBoxAccept..Caption
 #: UnitFormNotice.dfm:3689
-msgid "Accept"
-msgstr ""
+msgid "Kabul"
+msgstr "Kabul"
 
 #. FormNotice..CheckBoxReject..Caption
 #: UnitFormNotice.dfm:3704
-msgid "Reject"
-msgstr ""
+msgid "Vazgeç"
+msgstr "Vazgeç"
 
 #. FormOpciones..Caption
 #: UnitFormOptions.dfm:6
-msgid "Options"
-msgstr ""
+msgid "Seçenekler"
+msgstr "Seçenekler"
 
 #. FormOpciones..GeneralOptions..Caption
 #: UnitFormOptions.dfm:74
 msgid "General Options"
-msgstr ""
+msgstr "Genel seçenekler"
 
 #. FormOpciones..GeneralOptions..LLanguage..Caption
 #: UnitFormOptions.dfm:87
-msgid "Language"
-msgstr ""
+msgid "Dil"
+msgstr "Dil"
 
 #. FormOpciones..GeneralOptions..LHeuristic..Caption
 #: UnitFormOptions.dfm:101
 msgid "Heuristic level"
-msgstr ""
+msgstr "Heuristic seviye"
 
 #. FormOpciones..GeneralOptions..ChShowAllAvs..Caption
 #: UnitFormOptions.dfm:130
 msgid "View unavailable AVs"
-msgstr ""
+msgstr "Kullanýlamaz antivirüsleri Göster"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:153
@@ -428,48 +427,48 @@ msgstr ""
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:154
-msgid "Low"
-msgstr ""
+msgid "Düþük"
+msgstr "Düþük"
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:154
+msgid "Orta"
+msgstr "Orta"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:155
-msgid "Middle"
-msgstr ""
-
-#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
-#: UnitFormOptions.dfm:156
-msgid "High"
-msgstr ""
+msgid "Yüksek"
+msgstr "Yüksek"
 
 #. FormOpciones..ScanOptions..Caption
 #: UnitFormOptions.dfm:164
 msgid "Scan Options"
-msgstr ""
+msgstr "Tarama Seçenekleri"
 
 #. FormOpciones..ScanOptions..RBScanFile..Caption
 #: UnitFormOptions.dfm:177
 msgid "Scan file"
-msgstr ""
+msgstr "Dosya tara"
 
 #. FormOpciones..ScanOptions..RBScanFolder..Caption
 #: UnitFormOptions.dfm:192 UnitFormMain.pas:569
 msgid "Scan folder"
-msgstr ""
+msgstr "Klasör tara"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBDelInfected..Caption
 #: UnitFormOptions.dfm:213
 msgid "Delete infected files"
-msgstr ""
+msgstr "Virüslü dosyalarý sil"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBFolderReport..Caption
 #: UnitFormOptions.dfm:228
 msgid "Make folder report"
-msgstr ""
+msgstr "Rapor klasörü hazýrla"
 
 #. FormOpciones..AdvanceOptions..Caption
 #: UnitFormOptions.dfm:245
 msgid "Advance Options"
-msgstr ""
+msgstr "Geliþmiþ seçenekler"
 
 #. FormOpciones..AdvanceOptions..ChQuietInstall..Caption
 #: UnitFormOptions.dfm:259
@@ -488,12 +487,12 @@ msgstr ""
 
 #. FormUpdate..Caption
 #: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
-msgid "Updating"
-msgstr ""
+msgid "Güncelleyin"
+msgstr "Güncelleyin"
 
 #: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
 msgid "Error loading icon!"
-msgstr ""
+msgstr "Error loading icon!"
 
 #: UnitFormAddAV.pas:232
 msgid "Variables for use in execution:"
@@ -521,72 +520,63 @@ msgstr ""
 
 #: UnitFormDownload.pas:52
 msgid "Warning! The installation process already started!"
-msgstr ""
+msgstr "Warning! The installation process already started!"
 
 #: UnitFormDownload.pas:60 UnitFormMain.pas:692 UnitFormUpdate.pas:56
 msgid "Error stopping:"
-msgstr ""
+msgstr "Error stoping:"
 
 #: UnitFormDownload.pas:75 UnitFormUpdate.pas:71
 msgid "Action canceled"
 msgstr ""
 
-#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320
-#: UnitFormMain.pas:355 UnitFormUpdate.pas:108
+#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320 UnitFormMain.pas:355 UnitFormUpdate.pas:108
 msgid "ERROR!"
 msgstr ""
 
 #: UnitFormDownload.pas:106
 msgid "Select the antivirus that you wish to download"
-msgstr ""
+msgstr "Ýndirmek istediðiniz antivirüsü seçin"
 
-#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
-#: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
+#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247 UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
 msgid "Executing:"
-msgstr ""
+msgstr "Çalýþtýrýlýyor:"
 
 #: UnitFormDownload.pas:195
 msgid "When you finish installing the exe click OK"
-msgstr ""
+msgstr "Exe yüklemeyi tamamladýðýnýzda OK u týklayýn"
 
 #: UnitFormDownload.pas:216 UnitFormDownload.pas:218
 msgid "Download OK"
-msgstr ""
+msgstr "Ýndirme tamam"
 
-#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
-#: UnitFormDownload.pas:236
+#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234 UnitFormDownload.pas:236
 msgid "Error downloading!"
-msgstr ""
+msgstr "Ýndirirken Hata oluþtu!"
 
 #: UnitFormUpdate.pas:68
-msgid "AVs Downloaded! don't forget to update before "
-"scanning"
-msgstr ""
+msgid "AVs Downloaded! don't forget to update before scanning"
+msgstr "Antivirüs indirildi! Taramadan önce antvirüsü güncellemeyi unutmayýn"
 
 #: UnitFormLanguage.pas:40
 msgid "Select a language!"
 msgstr ""
 
-#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419
-#: UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
+#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419 UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
 msgid "Virus not found"
-msgstr ""
+msgstr "Virus bulunamadý [ParaNTeZ]"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:440
-msgid "Info"
-msgstr ""
+msgid "Bilgi"
+msgstr "Bilgi"
 
 #: UnitFormMain.pas:236
-msgid "Date"
-msgstr ""
+msgid "Tarih"
+msgstr "Tarih"
 
 #: UnitFormMain.pas:236
-msgid "Name"
-msgstr ""
-
-#: UnitFormMain.pas:236
-msgid "Size"
-msgstr ""
+msgid "Boyut"
+msgstr "Boyut"
 
 #: UnitFormMain.pas:236
 msgid "bytes"
@@ -594,11 +584,11 @@ msgstr ""
 
 #: UnitFormMain.pas:236
 msgid "Detection rate"
-msgstr ""
+msgstr "Yakalanma oraný"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:431
-msgid "Detections"
-msgstr ""
+msgid "Saptamalar"
+msgstr "Saptamalar"
 
 #: UnitFormMain.pas:257 UnitFormMain.pas:259
 msgid "Report generated by KIMS v3"
@@ -606,7 +596,7 @@ msgstr ""
 
 #: UnitFormMain.pas:270 UnitFormMain.pas:316 UnitFormMain.pas:348
 msgid "Scan a file first!"
-msgstr ""
+msgstr "Dosya tarama giriþimi!"
 
 #: UnitFormMain.pas:333
 msgid "TXT files"
@@ -622,32 +612,32 @@ msgstr ""
 
 #. FormMain.Repaint;
 #: UnitFormMain.pas:482
-msgid "Scanning"
-msgstr ""
+msgid "Taranýyor"
+msgstr "Scaning"
 
 #: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
 msgid "of"
-msgstr ""
+msgstr "of"
 
 #: UnitFormMain.pas:441
 msgid "First scan:"
-msgstr ""
+msgstr "Ilk tarama:"
 
 #: UnitFormMain.pas:442 UnitFormMain.pas:542
 msgid "Last scan:"
-msgstr ""
+msgstr "Son tarama:"
 
 #: UnitFormMain.pas:442
 msgid "Never"
-msgstr ""
+msgstr "Hiç"
 
 #: UnitFormMain.pas:443 UnitFormMain.pas:543
 msgid "Number of scan files:"
-msgstr ""
+msgstr "Toplam Oyun taranmis:"
 
 #: UnitFormMain.pas:444 UnitFormMain.pas:544
 msgid "Number of detections:"
-msgstr ""
+msgstr "Toplam Saptamalar:"
 
 #: UnitFormMain.pas:501
 msgid "Detected in"
@@ -667,35 +657,32 @@ msgstr ""
 
 #: UnitFormMain.pas:690
 msgid "Stoped Scan"
-msgstr ""
+msgstr "Tarama Durduruluyor"
 
 #: UnitFormUpdate.pas:48
 msgid "Warning! The database can be corrupted!"
-msgstr ""
+msgstr "Warning! The database can be corrupted!"
 
 #: UnitFormUpdate.pas:96
 msgid "Select the antivirus that you wish to update"
-msgstr ""
+msgstr "Güncellemek istediðiniz antivirüsü seçin"
 
 #: UnitFormUpdate.pas:190 UnitFormUpdate.pas:192
 msgid "Updating OK"
-msgstr ""
+msgstr "Güncelleme tamam"
 
-#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
-#: UnitFormUpdate.pas:211
+#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209 UnitFormUpdate.pas:211
 msgid "Error updating!"
-msgstr ""
+msgstr "Güncellerken hata oluþtu!"
 
 #: UnitFormUpdate.pas:86
-msgid "AVs Updated! don't forget to update "
-"frecuently"
+msgid "AVs Updated! don't forget to update frecuently"
 msgstr ""
 
 #: UnitScanners.pas:64
 msgid "Option not available"
 msgstr ""
 
-#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
-#: UnitScanners.pas:246 UnitScanners.pas:282
+#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168 UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"
 msgstr ""

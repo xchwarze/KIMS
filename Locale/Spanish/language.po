@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-04 19:21-0300\n"
+"PO-Revision-Date: 2015-01-20 00:06-0300\n"
 "Last-Translator: DSR! <xchwarze@gmail.com>\n"
 "Language-Team: DSR!\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. FormAbout..Caption
@@ -47,66 +47,71 @@ msgid "AVs Editor"
 msgstr "Editor de AVs"
 
 #. FormAddAV..LabelForum..Caption
-#: UnitFormAddAV.dfm:31
+#: UnitFormAddAV.dfm:30
 msgid "Go to the AVs forum!"
 msgstr "Ir al foro oficial!"
 
 #. FormAddAV..ButtonReload..Caption
-#: UnitFormAddAV.dfm:52
+#: UnitFormAddAV.dfm:51
 msgid "Reload Config"
 msgstr "Recargar configuración"
 
 #. FormAddAV..ButtonExtEdit..Caption
-#: UnitFormAddAV.dfm:97
+#: UnitFormAddAV.dfm:96
 msgid "Open in external editor"
 msgstr "Abrir en editor externo"
 
 #. FormAddAV..ButtonSave..Caption
 #. FormLanguage..ButtonSave..Caption
 #. FormOpciones..ButtonSave..Caption
-#: UnitFormAddAV.dfm:186 UnitFormLanguage.dfm:3776 UnitFormOptions.dfm:29
+#: UnitFormAddAV.dfm:185 UnitFormLanguage.dfm:3775 UnitFormOptions.dfm:29
 msgid "Save"
 msgstr "Guardar"
 
 #. FormAddAV..ListViewAVs......Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:234 UnitFormMain.dfm:2809
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:233 UnitFormAddAV.dfm:512
 msgid "AV"
 msgstr "AV"
 
 #. FormAddAV..PageControl1..TabSheet1..Caption
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
-#: UnitFormAddAV.dfm:259 UnitFormAddAV.dfm:339
+#: UnitFormAddAV.dfm:258 UnitFormAddAV.dfm:345
 msgid "Installation"
 msgstr "Instalación"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelAVPath..Caption
-#: UnitFormAddAV.dfm:268
+#: UnitFormAddAV.dfm:267
 msgid "Antivirus path"
 msgstr "Ruta del antivirus"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelName..Caption
-#: UnitFormAddAV.dfm:275
-msgid "Av name"
-msgstr "Nombre del AV"
+#: UnitFormAddAV.dfm:274 UnitFormMain.pas:244
+msgid "Name"
+msgstr "Nombre"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelReportPath..Caption
-#: UnitFormAddAV.dfm:282
+#: UnitFormAddAV.dfm:281
 msgid "Report Path"
 msgstr "Ruta del reporte"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelIcon..Caption
-#: UnitFormAddAV.dfm:296
+#: UnitFormAddAV.dfm:295
 msgid "Icon"
 msgstr "Icono"
 
+#. FormAddAV..PageControl1..TabSheet1..LabelType..Caption
+#: UnitFormAddAV.dfm:302
+msgid "Type"
+msgstr "Tipo"
+
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownload..Caption
-#: UnitFormAddAV.dfm:348
+#: UnitFormAddAV.dfm:354
 msgid "Download URL"
 msgstr "URL de descarga"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelHTMLNearLink..Caption
-#: UnitFormAddAV.dfm:355
+#: UnitFormAddAV.dfm:361
 msgid "Grab download link before this in the HTML code"
 msgstr "Obtener el siguiente link del HTML descargado después de la palabra"
 
@@ -116,7 +121,7 @@ msgid "Action after downloading"
 msgstr "Acción después de descargar"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelInstallNotes..Caption
-#: UnitFormAddAV.dfm:369
+#: UnitFormAddAV.dfm:377
 msgid "Instructions for manual installation"
 msgstr "Instrucciones para la instalación manual"
 
@@ -134,8 +139,7 @@ msgstr "Comando a ejecutar"
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:418 UnitFormAddAV.dfm:481 UnitFormAddAV.dfm:557
-#: UnitFormAddAV.dfm:645
+#: UnitFormAddAV.dfm:671
 msgid "Left delimiter"
 msgstr "Delimitador izquierdo"
 
@@ -143,8 +147,7 @@ msgstr "Delimitador izquierdo"
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:419 UnitFormAddAV.dfm:482 UnitFormAddAV.dfm:558
-#: UnitFormAddAV.dfm:646
+#: UnitFormAddAV.dfm:672
 msgid "Right delimiter"
 msgstr "Delimitador derecho"
 
@@ -154,103 +157,107 @@ msgid "Update"
 msgstr "Actualizar"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdate..Caption
-#: UnitFormAddAV.dfm:436
+#: UnitFormAddAV.dfm:434
 msgid "Update download URL"
 msgstr "URL de descarga de la actualización"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelHTMLNearLink2..Caption
-#: UnitFormAddAV.dfm:443
+#: UnitFormAddAV.dfm:441
 msgid "Grab update link before this in the HTML code"
 msgstr "Obtener el siguiente link del HTML descargado después de la palabra"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
-#: UnitFormAddAV.dfm:450
+#: UnitFormAddAV.dfm:449
 msgid "Action after downloading update"
 msgstr "Acción después de descargar la actualización"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
-#: UnitFormAddAV.dfm:448
+#: UnitFormAddAV.dfm:457
 msgid "Instructions for manual update"
 msgstr "Instrucciones para la actualización manual"
 
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:513
+msgid "Tool"
+msgstr "Herramienta"
+
 #. FormAddAV..PageControl1..TabSheet2..Caption
-#: UnitFormAddAV.dfm:491
+#: UnitFormAddAV.dfm:517
 msgid "Scan"
 msgstr "Escanear"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelAnalisisParameters..Caption
-#: UnitFormAddAV.dfm:501
+#: UnitFormAddAV.dfm:527
 msgid "Parameters for different types scan"
 msgstr "Parámetros para diferentes tipos de escaneo"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelExecutionType..Caption
-#: UnitFormAddAV.dfm:508
+#: UnitFormAddAV.dfm:534
 msgid "Execution Type"
 msgstr "Tipo de ejecución"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPreScan..Caption
-#: UnitFormAddAV.dfm:515
+#: UnitFormAddAV.dfm:541
 msgid "Run before scanning"
 msgstr "Ejecutar antes del escaneo"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPostScan..Caption
-#: UnitFormAddAV.dfm:522
+#: UnitFormAddAV.dfm:548
 msgid "Run after scanning"
 msgstr "Ejecutar después del escaneo"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelDilimiters..Caption
-#: UnitFormAddAV.dfm:529
+#: UnitFormAddAV.dfm:555
 msgid "Delimiters for extract report result"
 msgstr "Delimitadores del resultado en el archivo de reporte"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:540 UnitFormMain.dfm:2814
+#: UnitFormAddAV.dfm:566
 msgid "Result"
 msgstr "Resultado"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..Caption
-#: UnitFormAddAV.dfm:565
+#: UnitFormAddAV.dfm:591
 msgid "Junk"
 msgstr "Falso positivo"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..BitBtnJunk..Caption
-#: UnitFormAddAV.dfm:594
+#: UnitFormAddAV.dfm:620
 msgid "Add!"
 msgstr "Añadir"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..Caption
-#: UnitFormAddAV.dfm:627
+#: UnitFormAddAV.dfm:653
 msgid "Error report"
 msgstr "Informe de errores"
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:661
+#: UnitFormAddAV.dfm:687
 msgid "Base parameter="
 msgstr "Parámetro base="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:662
+#: UnitFormAddAV.dfm:688
 msgid "Heuristic off="
 msgstr "Heurística desactivada="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:663
+#: UnitFormAddAV.dfm:689
 msgid "Low heuristic="
 msgstr "Heurística baja="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:664
+#: UnitFormAddAV.dfm:690
 msgid "Medium heuristic="
 msgstr "Heurística media="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:665
+#: UnitFormAddAV.dfm:691
 msgid "High heuristic="
 msgstr "Heurística alta="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:668
+#: UnitFormAddAV.dfm:694
 msgid "Analysis type"
 msgstr "Tipo de Análisis"
 
@@ -444,12 +451,12 @@ msgid "Low"
 msgstr "Baja"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
-#: UnitFormOptions.dfm:155
+#: UnitFormOptions.dfm:154
 msgid "Middle"
 msgstr "Medio"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
-#: UnitFormOptions.dfm:156
+#: UnitFormOptions.dfm:155
 msgid "High"
 msgstr "Alta"
 
@@ -498,6 +505,7 @@ msgstr "Ver todos los procesos (forzar SW_SHOW)"
 msgid "View debug info"
 msgstr "Ver información de depuración"
 
+#. FormUpdate..Caption
 #: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
 msgid "Updating"
 msgstr "Actualizando"
@@ -569,15 +577,10 @@ msgstr "Descarga OK"
 msgid "Error downloading!"
 msgstr "Error en la descarga!"
 
-#: UnitFormDownload.pas:259 UnitFormDownload.pas:261
-msgid "No download link configured!"
-msgstr "Ningún enlace de descarga configurado!"
-
 #: UnitFormUpdate.pas:68
 msgid "AVs Downloaded! don't forget to update before scanning"
 msgstr "AVs descargados! no se olvide de actualizar antes de escanear"
 
-#. if ComboBoxLang.Text = 'Select Language' then
 #: UnitFormLanguage.pas:40
 msgid "Select a language!"
 msgstr "Seleccionar idioma"
@@ -587,7 +590,6 @@ msgstr "Seleccionar idioma"
 msgid "Virus not found"
 msgstr "No ha encontrado un virus"
 
-#. add language
 #: UnitFormMain.pas:236 UnitFormMain.pas:440
 msgid "Info"
 msgstr "Info"
@@ -595,10 +597,6 @@ msgstr "Info"
 #: UnitFormMain.pas:236
 msgid "Date"
 msgstr "Fecha"
-
-#: UnitFormMain.pas:236
-msgid "Name"
-msgstr "Nombre"
 
 #: UnitFormMain.pas:236
 msgid "Size"
@@ -612,7 +610,6 @@ msgstr "bytes"
 msgid "Detection rate"
 msgstr "Tasa de detección"
 
-#. Escaneo de carpeta
 #: UnitFormMain.pas:236 UnitFormMain.pas:431
 msgid "Detections"
 msgstr "Detecciones"
@@ -638,12 +635,10 @@ msgid "sec"
 msgstr "seg"
 
 #. FormMain.Repaint;
-#. FormMain.Repaint;
-#: UnitFormMain.pas:408 UnitFormMain.pas:482
+#: UnitFormMain.pas:482
 msgid "Scanning"
 msgstr "Escaneando"
 
-#. Muestro estadisticas en el momento
 #: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
 msgid "of"
 msgstr "de"
@@ -668,7 +663,6 @@ msgstr "Número de archivo escaneados:"
 msgid "Number of detections:"
 msgstr "Número de detecciones:"
 
-#. Si lo detecta con distinto nombre del que hay en el archivo report
 #: UnitFormMain.pas:501
 msgid "Detected in"
 msgstr "Detectado en"
@@ -718,3 +712,9 @@ msgstr "La opción no está disponible"
 #: UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"
 msgstr "Se ha producido un error!"
+
+#~ msgid "Av name"
+#~ msgstr "Nombre del AV"
+
+#~ msgid "No download link configured!"
+#~ msgstr "Ningún enlace de descarga configurado!"

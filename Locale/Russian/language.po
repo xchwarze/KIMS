@@ -1,18 +1,19 @@
-# KIMS 3 - ??????
+# KIMS 3 - Russian
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# @GrayJackFixxxer, 2013
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-19 22:43-0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-01-19 23:47-0300\n"
+"Last-Translator: @GrayJackFixxxer\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.7.3\n"
+"Language: ru\n"
 
 #. FormAbout..Caption
 #: UnitFormAbout.dfm:5
@@ -22,32 +23,32 @@ msgstr ""
 #. FormAbout..labelAuthor..Caption
 #: UnitFormAbout.dfm:3638
 msgid "Author:"
-msgstr ""
+msgstr "Автор:"
 
 #. FormAbout..labelDate..Caption
 #: UnitFormAbout.dfm:3666
 msgid "Date:"
-msgstr ""
+msgstr "Дата:"
 
 #. FormAbout..labelThanks..Caption
 #: UnitFormAbout.dfm:3680
 msgid "Thanks to:"
-msgstr ""
+msgstr "Благодарности:"
 
 #. FormAbout..labelContact..Caption
 #: UnitFormAbout.dfm:3708
 msgid "Web:"
-msgstr ""
+msgstr "WWW:"
 
 #. FormAddAV..Caption
 #: UnitFormAddAV.dfm:4
 msgid "AVs Editor"
-msgstr ""
+msgstr "Редактор"
 
 #. FormAddAV..LabelForum..Caption
 #: UnitFormAddAV.dfm:30
 msgid "Go to the AVs forum!"
-msgstr ""
+msgstr "Обратитесь на форум поддержки антивируса!"
 
 #. FormAddAV..ButtonReload..Caption
 #: UnitFormAddAV.dfm:51
@@ -57,14 +58,14 @@ msgstr ""
 #. FormAddAV..ButtonExtEdit..Caption
 #: UnitFormAddAV.dfm:96
 msgid "Open in external editor"
-msgstr ""
+msgstr "Открыть внешний редактор"
 
 #. FormAddAV..ButtonSave..Caption
 #. FormLanguage..ButtonSave..Caption
 #. FormOpciones..ButtonSave..Caption
 #: UnitFormAddAV.dfm:185 UnitFormLanguage.dfm:3775 UnitFormOptions.dfm:29
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #. FormAddAV..ListViewAVs......Caption
 #. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
@@ -76,27 +77,27 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
 #: UnitFormAddAV.dfm:258 UnitFormAddAV.dfm:345
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelAVPath..Caption
 #: UnitFormAddAV.dfm:267
 msgid "Antivirus path"
-msgstr ""
+msgstr "Путь к сканеру"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelName..Caption
 #: UnitFormAddAV.dfm:274 UnitFormMain.pas:244
-msgid "Name"
-msgstr ""
+msgid "Имя"
+msgstr "Имя"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelReportPath..Caption
 #: UnitFormAddAV.dfm:281
 msgid "Report Path"
-msgstr ""
+msgstr "Путь для отчёта"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelIcon..Caption
 #: UnitFormAddAV.dfm:295
 msgid "Icon"
-msgstr ""
+msgstr "Иконка"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelType..Caption
 #: UnitFormAddAV.dfm:302
@@ -106,32 +107,32 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownload..Caption
 #: UnitFormAddAV.dfm:354
 msgid "Download URL"
-msgstr ""
+msgstr "URL для загрузки"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelHTMLNearLink..Caption
 #: UnitFormAddAV.dfm:361
 msgid "Grab download link before this in the HTML code"
-msgstr ""
+msgstr "Предварительно определить ссылку на загрузку в коде HTML"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownloadShellexe..Caption
 #: UnitFormAddAV.dfm:362
 msgid "Action after downloading"
-msgstr ""
+msgstr "Действия после загрузки"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelInstallNotes..Caption
 #: UnitFormAddAV.dfm:377
 msgid "Instructions for manual installation"
-msgstr ""
+msgstr "Инструкции для ручной установки"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:383
 msgid "Instructions"
-msgstr ""
+msgstr "Инструкции"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:384
 msgid "Command to execute"
-msgstr ""
+msgstr "Команда на выполнение"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
@@ -139,7 +140,7 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:671
 msgid "Left delimiter"
-msgstr ""
+msgstr "Левый разделитель"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
@@ -147,17 +148,17 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:672
 msgid "Right delimiter"
-msgstr ""
+msgstr "Правый разделитель"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..Caption
 #: UnitFormAddAV.dfm:426
 msgid "Update"
-msgstr ""
+msgstr "Обновление"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdate..Caption
 #: UnitFormAddAV.dfm:434
 msgid "Update download URL"
-msgstr ""
+msgstr "URL для загрузки обновлений"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelHTMLNearLink2..Caption
 #: UnitFormAddAV.dfm:441
@@ -167,7 +168,7 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
 #: UnitFormAddAV.dfm:449
 msgid "Action after downloading update"
-msgstr ""
+msgstr "Действия после загрузки обновлений"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
 #: UnitFormAddAV.dfm:457
@@ -182,47 +183,47 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet2..Caption
 #: UnitFormAddAV.dfm:517
 msgid "Scan"
-msgstr ""
+msgstr "Сканирование"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelAnalisisParameters..Caption
 #: UnitFormAddAV.dfm:527
 msgid "Parameters for different types scan"
-msgstr ""
+msgstr "Параметры для различных типов сканирования"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelExecutionType..Caption
 #: UnitFormAddAV.dfm:534
 msgid "Execution Type"
-msgstr ""
+msgstr "Тип выполнения"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPreScan..Caption
 #: UnitFormAddAV.dfm:541
 msgid "Run before scanning"
-msgstr ""
+msgstr "Запускать перед сканированием"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPostScan..Caption
 #: UnitFormAddAV.dfm:548
 msgid "Run after scanning"
-msgstr ""
+msgstr "Запускать после сканирования"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelDilimiters..Caption
 #: UnitFormAddAV.dfm:555
 msgid "Delimiters for extract report result"
-msgstr ""
+msgstr "Разделители для извлечения результатов из отчёта"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..Caption
 #: UnitFormAddAV.dfm:566
-msgid "Result"
-msgstr ""
+msgid "Результаты"
+msgstr "Результат"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..Caption
 #: UnitFormAddAV.dfm:591
 msgid "Junk"
-msgstr ""
+msgstr "Мусор"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..BitBtnJunk..Caption
 #: UnitFormAddAV.dfm:620
 msgid "Add!"
-msgstr ""
+msgstr "Добавить!"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..Caption
 #: UnitFormAddAV.dfm:653
@@ -232,37 +233,37 @@ msgstr ""
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
 #: UnitFormAddAV.dfm:687
 msgid "Base parameter="
-msgstr ""
+msgstr "Базовые параметры="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
 #: UnitFormAddAV.dfm:688
 msgid "Heuristic off="
-msgstr ""
+msgstr "Отключить эвристику="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
 #: UnitFormAddAV.dfm:689
 msgid "Low heuristic="
-msgstr ""
+msgstr "Низкая эвристика="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
 #: UnitFormAddAV.dfm:690
 msgid "Medium heuristic="
-msgstr ""
+msgstr "Средняя эвристика="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
 #: UnitFormAddAV.dfm:691
 msgid "High heuristic="
-msgstr ""
+msgstr "Высокая эвристика="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:694
 msgid "Analysis type"
-msgstr ""
+msgstr "Тип анализа"
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:669
 msgid "Parameters"
-msgstr ""
+msgstr "Параметры"
 
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType..Text
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
@@ -289,25 +290,23 @@ msgstr ""
 #. FormAddAV..PopupMenuInstall..addAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Add1..Caption
 #. FormAddAV..PopupMenuError..AddError..Caption
-#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951
-#: UnitFormAddAV.dfm:1025
+#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951 UnitFormAddAV.dfm:1025
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #. FormAddAV..PopupMenuDelimitadores..delDelim..Caption
 #. FormAddAV..PopupMenuJunk..Del1..Caption
 #. FormAddAV..PopupMenuInstall..delAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Del2..Caption
 #. FormAddAV..PopupMenuError..DelError..Caption
-#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916
-#: UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
+#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916 UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
 msgid "Del"
-msgstr ""
+msgstr "Удалить"
 
 #. FormAddAV..PopupMenuJunk..DelAll1..Caption
 #: UnitFormAddAV.dfm:850
 msgid "Del All"
-msgstr ""
+msgstr "Удалить все"
 
 #. FormDebug..Caption
 #. FormMain..Memo....Lines.Strings
@@ -317,26 +316,26 @@ msgstr ""
 
 #. FormDownload..Caption
 #: UnitFormDownload.dfm:4 UnitFormDownload.pas:119
-msgid "Downloading"
-msgstr ""
+msgid "Загрузка"
+msgstr "Загрузка"
 
 #. FormDownload..Label1..Caption
 #. FormUpdate..Label1..Caption
 #: UnitFormDownload.dfm:29 UnitFormUpdate.dfm:28
 msgid "Progress:"
-msgstr ""
+msgstr "Прогресс"
 
 #. FormDownload..Label3..Caption
 #. FormUpdate..Label3..Caption
 #: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
 msgid "Download:"
-msgstr ""
+msgstr "Загрузка:"
 
 #. FormDownload..ButtonCancel..Caption
 #. FormUpdate..ButtonCancel..Caption
 #: UnitFormDownload.dfm:85 UnitFormUpdate.dfm:84
-msgid "Cancel"
-msgstr ""
+msgid "Отмена"
+msgstr "Отмена"
 
 #. FormLanguage..Label5..Caption
 #. FormLanguage..ComboBoxLang..Text
@@ -348,77 +347,76 @@ msgstr ""
 #. FormMain..CheckBoxAll..Caption
 #: UnitFormMain.dfm:2734 UnitFormMain.dfm:2773
 msgid "Select All"
-msgstr ""
+msgstr "Выбрать все"
 
 #. FormMain..LTime..Caption
-#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
-#: UnitFormMain.pas:550
+#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480 UnitFormMain.pas:550
 msgid "Time:"
-msgstr ""
+msgstr "Время:"
 
 #. FormMain..PopupMenuResult..Copiaralportapapeles1..Caption
 #: UnitFormMain.dfm:2903
 msgid "Copy results to clipboard"
-msgstr ""
+msgstr "Копировать результаты в буфер обмена"
 
 #. FormMain..PopupMenuResult..BBCode..Caption
 #: UnitFormMain.dfm:2950
 msgid "Copy results in BBCode"
-msgstr ""
+msgstr "Копировать результаты в формате BBCode"
 
 #. FormMain..PopupMenuResult..Guardarresultados1..Caption
 #: UnitFormMain.dfm:2989
 msgid "Save results"
-msgstr ""
+msgstr "Сохранить результаты"
 
 #. FormMain..PopupMenuResult..Borrar1..Caption
 #: UnitFormMain.dfm:3036
 msgid "Clear results"
-msgstr ""
+msgstr "Очистить результаты"
 
 #. FormNotice..Warning..Caption
 #: UnitFormNotice.dfm:3638
-msgid "Warning"
-msgstr ""
+msgid "Внимание"
+msgstr "Внимание"
 
 #: UnitFormNotice.pas:66
 msgid "This program does not replace any antivirus, this is a sample which a antivirus set would detected in a disk file. The results that this program may give may be diferent to which it to a antivirus may give in real time when executing that file. A encripted file may not be detected it in disc, but in execution after desencription in memory it is very possible that it may be detected. So never use this program to substitute the complete defense that any antivirus may provide. This program downloads free versions from the pages of the antivirus and these versions may not be trustworthy."
-msgstr ""
+msgstr "Эта программа не заменяет антивирусные продукты, это лишь набор антивирусных движков для проверки файлов на диске. Результат такой проверки может отличаться от детекта, который даёт резидентный модель антивируса при запуске проверяемого файла на реальной системе. Так, зашифрованный файл может быть не распознан как вредоносный, однако при выполнении и расшифровке кода в область памяти вредоносность может быть обнаружена. Таким образом, никогда не используйте настоящий программный продукт как замену реальным антивирусным решениям, поскольку он не обеспечивает надлежащего уровня защиты, а необходим только для исследовательсикз целей. Программа скачивает бесплатные вресии антивирусных сканеров с официальных сайтов, которые могут быть более устаревшими, чем коммерческие версии."
 
 #. FormNotice..CheckBoxAccept..Caption
 #: UnitFormNotice.dfm:3689
-msgid "Accept"
-msgstr ""
+msgid "Согласиться"
+msgstr "Согласиться"
 
 #. FormNotice..CheckBoxReject..Caption
 #: UnitFormNotice.dfm:3704
-msgid "Reject"
-msgstr ""
+msgid "Отказаться"
+msgstr "Отказаться"
 
 #. FormOpciones..Caption
 #: UnitFormOptions.dfm:6
-msgid "Options"
-msgstr ""
+msgid "Настройки"
+msgstr "Настройки"
 
 #. FormOpciones..GeneralOptions..Caption
 #: UnitFormOptions.dfm:74
 msgid "General Options"
-msgstr ""
+msgstr "Общие настройки"
 
 #. FormOpciones..GeneralOptions..LLanguage..Caption
 #: UnitFormOptions.dfm:87
-msgid "Language"
-msgstr ""
+msgid "Язык"
+msgstr "Язык"
 
 #. FormOpciones..GeneralOptions..LHeuristic..Caption
 #: UnitFormOptions.dfm:101
 msgid "Heuristic level"
-msgstr ""
+msgstr "Уровень эвристики"
 
 #. FormOpciones..GeneralOptions..ChShowAllAvs..Caption
 #: UnitFormOptions.dfm:130
 msgid "View unavailable AVs"
-msgstr ""
+msgstr "Отобразить недоступные антивирусные сканеры"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:153
@@ -427,48 +425,48 @@ msgstr ""
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:154
-msgid "Low"
-msgstr ""
+msgid "Низкий"
+msgstr "Низкий"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:154
-msgid "Middle"
-msgstr ""
+msgid "Средний"
+msgstr "Средний"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:155
-msgid "High"
-msgstr ""
+msgid "Высокий"
+msgstr "Высокий"
 
 #. FormOpciones..ScanOptions..Caption
 #: UnitFormOptions.dfm:164
 msgid "Scan Options"
-msgstr ""
+msgstr "Настройки сканирования"
 
 #. FormOpciones..ScanOptions..RBScanFile..Caption
 #: UnitFormOptions.dfm:177
 msgid "Scan file"
-msgstr ""
+msgstr "Сканировать файл"
 
 #. FormOpciones..ScanOptions..RBScanFolder..Caption
 #: UnitFormOptions.dfm:192 UnitFormMain.pas:569
 msgid "Scan folder"
-msgstr ""
+msgstr "Сканировать папки"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBDelInfected..Caption
 #: UnitFormOptions.dfm:213
 msgid "Delete infected files"
-msgstr ""
+msgstr "Удалять заражённые файлы"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBFolderReport..Caption
 #: UnitFormOptions.dfm:228
 msgid "Make folder report"
-msgstr ""
+msgstr "Создавать отчёты по папкам"
 
 #. FormOpciones..AdvanceOptions..Caption
 #: UnitFormOptions.dfm:245
 msgid "Advance Options"
-msgstr ""
+msgstr "Расширенные настройки"
 
 #. FormOpciones..AdvanceOptions..ChQuietInstall..Caption
 #: UnitFormOptions.dfm:259
@@ -487,12 +485,12 @@ msgstr ""
 
 #. FormUpdate..Caption
 #: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
-msgid "Updating"
-msgstr ""
+msgid "Обновление"
+msgstr "Обновление"
 
 #: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
 msgid "Error loading icon!"
-msgstr ""
+msgstr "Ошибка загрузки иконки!"
 
 #: UnitFormAddAV.pas:232
 msgid "Variables for use in execution:"
@@ -520,67 +518,63 @@ msgstr ""
 
 #: UnitFormDownload.pas:52
 msgid "Warning! The installation process already started!"
-msgstr ""
+msgstr "Внимание! Процесс установки уже запущен!"
 
 #: UnitFormDownload.pas:60 UnitFormMain.pas:692 UnitFormUpdate.pas:56
 msgid "Error stopping:"
-msgstr ""
+msgstr "Ошибка на процессе:"
 
 #: UnitFormDownload.pas:75 UnitFormUpdate.pas:71
 msgid "Action canceled"
 msgstr ""
 
-#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320
-#: UnitFormMain.pas:355 UnitFormUpdate.pas:108
+#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320 UnitFormMain.pas:355 UnitFormUpdate.pas:108
 msgid "ERROR!"
 msgstr ""
 
 #: UnitFormDownload.pas:106
 msgid "Select the antivirus that you wish to download"
-msgstr ""
+msgstr "Выберите антивирусный сканер для загрузки"
 
-#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
-#: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
+#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247 UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
 msgid "Executing:"
-msgstr ""
+msgstr "Выполнение:"
 
 #: UnitFormDownload.pas:195
 msgid "When you finish installing the exe click OK"
-msgstr ""
+msgstr "Когда закончится установка, нажмите ОК"
 
 #: UnitFormDownload.pas:216 UnitFormDownload.pas:218
 msgid "Download OK"
-msgstr ""
+msgstr "Загрузка завершена"
 
-#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
-#: UnitFormDownload.pas:236
+#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234 UnitFormDownload.pas:236
 msgid "Error downloading!"
-msgstr ""
+msgstr "Ошибка загрузки!"
 
 #: UnitFormUpdate.pas:68
 msgid "AVs Downloaded! don't forget to update before scanning"
-msgstr ""
+msgstr "Сканеры загружены! Не забудьте выполнить обновление перед сканированием!"
 
 #: UnitFormLanguage.pas:40
 msgid "Select a language!"
 msgstr ""
 
-#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419
-#: UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
+#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419 UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
 msgid "Virus not found"
-msgstr ""
+msgstr "Вредоносные файлы не обнаружены"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:440
-msgid "Info"
-msgstr ""
+msgid "Информация"
+msgstr "Информация"
 
 #: UnitFormMain.pas:236
-msgid "Date"
-msgstr ""
+msgid "Дата"
+msgstr "Дата"
 
 #: UnitFormMain.pas:236
-msgid "Size"
-msgstr ""
+msgid "Размер"
+msgstr "Размер"
 
 #: UnitFormMain.pas:236
 msgid "bytes"
@@ -588,11 +582,11 @@ msgstr ""
 
 #: UnitFormMain.pas:236
 msgid "Detection rate"
-msgstr ""
+msgstr "Частота детектирования"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:431
-msgid "Detections"
-msgstr ""
+msgid "Детект"
+msgstr "Детект"
 
 #: UnitFormMain.pas:257 UnitFormMain.pas:259
 msgid "Report generated by KIMS v3"
@@ -600,7 +594,7 @@ msgstr ""
 
 #: UnitFormMain.pas:270 UnitFormMain.pas:316 UnitFormMain.pas:348
 msgid "Scan a file first!"
-msgstr ""
+msgstr "Сначала просканируйте файл!"
 
 #: UnitFormMain.pas:333
 msgid "TXT files"
@@ -616,32 +610,32 @@ msgstr ""
 
 #. FormMain.Repaint;
 #: UnitFormMain.pas:482
-msgid "Scanning"
-msgstr ""
+msgid "Сканирование"
+msgstr "Сканирование"
 
 #: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
 msgid "of"
-msgstr ""
+msgstr "из"
 
 #: UnitFormMain.pas:441
 msgid "First scan:"
-msgstr ""
+msgstr "Первое сканирование:"
 
 #: UnitFormMain.pas:442 UnitFormMain.pas:542
 msgid "Last scan:"
-msgstr ""
+msgstr "Последнее сканирование:"
 
 #: UnitFormMain.pas:442
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #: UnitFormMain.pas:443 UnitFormMain.pas:543
 msgid "Number of scan files:"
-msgstr ""
+msgstr "Количество просканированных файлов:"
 
 #: UnitFormMain.pas:444 UnitFormMain.pas:544
 msgid "Number of detections:"
-msgstr ""
+msgstr "Количество детектов:"
 
 #: UnitFormMain.pas:501
 msgid "Detected in"
@@ -661,24 +655,23 @@ msgstr ""
 
 #: UnitFormMain.pas:690
 msgid "Stoped Scan"
-msgstr ""
+msgstr "Сканирование остановлено"
 
 #: UnitFormUpdate.pas:48
 msgid "Warning! The database can be corrupted!"
-msgstr ""
+msgstr "Внимание! Возможно повреждение базы данных!"
 
 #: UnitFormUpdate.pas:96
 msgid "Select the antivirus that you wish to update"
-msgstr ""
+msgstr "Выберите антивирусный сканер для обновления"
 
 #: UnitFormUpdate.pas:190 UnitFormUpdate.pas:192
 msgid "Updating OK"
-msgstr ""
+msgstr "Обновление завершено"
 
-#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
-#: UnitFormUpdate.pas:211
+#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209 UnitFormUpdate.pas:211
 msgid "Error updating!"
-msgstr ""
+msgstr "Ошибка обновления!"
 
 #: UnitFormUpdate.pas:86
 msgid "AVs Updated! don't forget to update frecuently"
@@ -688,7 +681,6 @@ msgstr ""
 msgid "Option not available"
 msgstr ""
 
-#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
-#: UnitScanners.pas:246 UnitScanners.pas:282
+#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168 UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"
 msgstr ""

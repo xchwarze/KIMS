@@ -1,4 +1,4 @@
-# KIMS 3 - ??????
+# KIMS 3 - Romanian
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,13 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KIMS 3\n"
 "POT-Creation-Date: 2014-12-31 16:03\n"
-"PO-Revision-Date: 2015-01-01 15:57-0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-01-19 23:54-0300\n"
+"Last-Translator:ap0calypt0\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
+"Language: ro\n"
 
 #. FormAbout..Caption
 #: UnitFormAbout.dfm:5
@@ -22,240 +23,247 @@ msgstr ""
 #. FormAbout..labelAuthor..Caption
 #: UnitFormAbout.dfm:3638
 msgid "Author:"
-msgstr ""
+msgstr "Autor:"
 
 #. FormAbout..labelDate..Caption
 #: UnitFormAbout.dfm:3666
 msgid "Date:"
-msgstr ""
+msgstr "Data:"
 
 #. FormAbout..labelThanks..Caption
 #: UnitFormAbout.dfm:3680
 msgid "Thanks to:"
-msgstr ""
+msgstr "Multiumiri:"
 
 #. FormAbout..labelContact..Caption
 #: UnitFormAbout.dfm:3708
 msgid "Web:"
-msgstr ""
+msgstr "Contact:"
 
 #. FormAddAV..Caption
 #: UnitFormAddAV.dfm:4
 msgid "AVs Editor"
-msgstr ""
+msgstr "Editor de antivirusi"
 
 #. FormAddAV..LabelForum..Caption
-#: UnitFormAddAV.dfm:31
+#: UnitFormAddAV.dfm:30
 msgid "Go to the AVs forum!"
-msgstr ""
+msgstr "Vizitati forumul oficial!"
 
 #. FormAddAV..ButtonReload..Caption
-#: UnitFormAddAV.dfm:52
+#: UnitFormAddAV.dfm:51
 msgid "Reload Config"
 msgstr ""
 
 #. FormAddAV..ButtonExtEdit..Caption
-#: UnitFormAddAV.dfm:97
+#: UnitFormAddAV.dfm:96
 msgid "Open in external editor"
-msgstr ""
+msgstr "Editare externa"
 
 #. FormAddAV..ButtonSave..Caption
 #. FormLanguage..ButtonSave..Caption
 #. FormOpciones..ButtonSave..Caption
-#: UnitFormAddAV.dfm:186 UnitFormLanguage.dfm:3776 UnitFormOptions.dfm:29
+#: UnitFormAddAV.dfm:185 UnitFormLanguage.dfm:3775 UnitFormOptions.dfm:29
 msgid "Save"
-msgstr ""
+msgstr "Salvati"
 
 #. FormAddAV..ListViewAVs......Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:234 UnitFormMain.dfm:2809
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:233 UnitFormAddAV.dfm:512
 msgid "AV"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..Caption
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..Caption
-#: UnitFormAddAV.dfm:259 UnitFormAddAV.dfm:339
+#: UnitFormAddAV.dfm:258 UnitFormAddAV.dfm:345
 msgid "Installation"
-msgstr ""
+msgstr "Instalare"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelAVPath..Caption
-#: UnitFormAddAV.dfm:268
+#: UnitFormAddAV.dfm:267
 msgid "Antivirus path"
-msgstr ""
+msgstr "Localizatia antivirusului"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelName..Caption
-#: UnitFormAddAV.dfm:275
-msgid "Av name"
-msgstr ""
+#: UnitFormAddAV.dfm:274 UnitFormMain.pas:244
+msgid "Nume"
+msgstr "Nume"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelReportPath..Caption
-#: UnitFormAddAV.dfm:282
+#: UnitFormAddAV.dfm:281
 msgid "Report Path"
-msgstr ""
+msgstr "Localizatia raportului"
 
 #. FormAddAV..PageControl1..TabSheet1..LabelIcon..Caption
-#: UnitFormAddAV.dfm:296
+#: UnitFormAddAV.dfm:295
 msgid "Icon"
+msgstr "Iconul"
+
+#. FormAddAV..PageControl1..TabSheet1..LabelType..Caption
+#: UnitFormAddAV.dfm:302
+msgid "Type"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownload..Caption
-#: UnitFormAddAV.dfm:348
+#: UnitFormAddAV.dfm:354
 msgid "Download URL"
-msgstr ""
+msgstr "URL de descarcare"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelHTMLNearLink..Caption
-#: UnitFormAddAV.dfm:355
+#: UnitFormAddAV.dfm:361
 msgid "Grab download link before this in the HTML code"
-msgstr ""
+msgstr "Obtineti urmatorul LINK din HTML descarcat dupa cuvint"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelDownloadShellexe..Caption
 #: UnitFormAddAV.dfm:362
 msgid "Action after downloading"
-msgstr ""
+msgstr "Actiune dupa descarcare"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..LabelInstallNotes..Caption
-#: UnitFormAddAV.dfm:369
+#: UnitFormAddAV.dfm:377
 msgid "Instructions for manual installation"
-msgstr ""
+msgstr "Instructi pentru instalarea manuala"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:383
 msgid "Instructions"
-msgstr ""
+msgstr "Instructi"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInstallNotes....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:384
 msgid "Command to execute"
-msgstr ""
+msgstr "Comanda care se executa dupa instructi"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:418 UnitFormAddAV.dfm:481 UnitFormAddAV.dfm:557
-#: UnitFormAddAV.dfm:645
+#: UnitFormAddAV.dfm:671
 msgid "Left delimiter"
-msgstr ""
+msgstr "Delimitator stang"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet5..ValueListEditorInsHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..ValueListEditorUpHTML....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..ValueListEditorDelimiters....TitleCaptions.Strings
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..ValueListEditorError....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:419 UnitFormAddAV.dfm:482 UnitFormAddAV.dfm:558
-#: UnitFormAddAV.dfm:646
+#: UnitFormAddAV.dfm:672
 msgid "Right delimiter"
-msgstr ""
+msgstr "Delimitator drept"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..Caption
 #: UnitFormAddAV.dfm:426
 msgid "Update"
-msgstr ""
+msgstr "Actualizare"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdate..Caption
-#: UnitFormAddAV.dfm:436
+#: UnitFormAddAV.dfm:434
 msgid "Update download URL"
-msgstr ""
+msgstr "URL de descarcare al actualizarii"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelHTMLNearLink2..Caption
-#: UnitFormAddAV.dfm:443
+#: UnitFormAddAV.dfm:441
 msgid "Grab update link before this in the HTML code"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateShellexe..Caption
-#: UnitFormAddAV.dfm:450
+#: UnitFormAddAV.dfm:449
 msgid "Action after downloading update"
-msgstr ""
+msgstr "Actiunea dupa descarcarea actualizarii"
 
 #. FormAddAV..PageControl1..TabSheet1..PageControl3..TabSheet6..LabelUpdateNotes..Caption
-#: UnitFormAddAV.dfm:448
+#: UnitFormAddAV.dfm:457
 msgid "Instructions for manual update"
 msgstr ""
 
-#. FormAddAV..PageControl1..TabSheet2..Caption
-#: UnitFormAddAV.dfm:491
-msgid "Scan"
+#. FormAddAV..PageControl1..TabSheet1..CBType....Items.Strings
+#: UnitFormAddAV.dfm:513
+msgid "Tool"
 msgstr ""
+
+#. FormAddAV..PageControl1..TabSheet2..Caption
+#: UnitFormAddAV.dfm:517
+msgid "Scan"
+msgstr "Scanare"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelAnalisisParameters..Caption
-#: UnitFormAddAV.dfm:501
+#: UnitFormAddAV.dfm:527
 msgid "Parameters for different types scan"
-msgstr ""
+msgstr "Parametre pentru diferitele tipuri de analize"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelExecutionType..Caption
-#: UnitFormAddAV.dfm:508
+#: UnitFormAddAV.dfm:534
 msgid "Execution Type"
-msgstr ""
+msgstr "Tip de executare"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPreScan..Caption
-#: UnitFormAddAV.dfm:515
+#: UnitFormAddAV.dfm:541
 msgid "Run before scanning"
-msgstr ""
+msgstr "Executati inainte de a scana"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelPostScan..Caption
-#: UnitFormAddAV.dfm:522
+#: UnitFormAddAV.dfm:548
 msgid "Run after scanning"
-msgstr ""
+msgstr "Executati dupa scanare"
 
 #. FormAddAV..PageControl1..TabSheet2..LabelDilimiters..Caption
-#: UnitFormAddAV.dfm:529
+#: UnitFormAddAV.dfm:555
 msgid "Delimiters for extract report result"
-msgstr ""
+msgstr "Delimitatoarele rezultatelor in fisierul de report"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet3..Caption
-#. FormMain..ListViewResult......Caption
-#: UnitFormAddAV.dfm:540 UnitFormMain.dfm:2814
-msgid "Result"
-msgstr ""
+#: UnitFormAddAV.dfm:566
+msgid "Rezultate"
+msgstr "Rezultat"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..Caption
-#: UnitFormAddAV.dfm:565
+#: UnitFormAddAV.dfm:591
 msgid "Junk"
-msgstr ""
+msgstr "Fals pozitiv"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet4..BitBtnJunk..Caption
-#: UnitFormAddAV.dfm:594
+#: UnitFormAddAV.dfm:620
 msgid "Add!"
-msgstr ""
+msgstr "Adaugati"
 
 #. FormAddAV..PageControl1..TabSheet2..PageControl2..TabSheet7..Caption
-#: UnitFormAddAV.dfm:627
+#: UnitFormAddAV.dfm:653
 msgid "Error report"
 msgstr ""
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:661
+#: UnitFormAddAV.dfm:687
 msgid "Base parameter="
-msgstr ""
+msgstr "Parametru baza="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:662
+#: UnitFormAddAV.dfm:688
 msgid "Heuristic off="
-msgstr ""
+msgstr "Euristica dezactivata="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:663
+#: UnitFormAddAV.dfm:689
 msgid "Low heuristic="
-msgstr ""
+msgstr "Euristica mica="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:664
+#: UnitFormAddAV.dfm:690
 msgid "Medium heuristic="
-msgstr ""
+msgstr "Euristica medie="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....Strings.Strings
-#: UnitFormAddAV.dfm:665
+#: UnitFormAddAV.dfm:691
 msgid "High heuristic="
-msgstr ""
+msgstr "Euristica mare="
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
-#: UnitFormAddAV.dfm:668
+#: UnitFormAddAV.dfm:694
 msgid "Analysis type"
-msgstr ""
+msgstr "Analiza"
 
 #. FormAddAV..PageControl1..TabSheet2..ValueListEditorParameters....TitleCaptions.Strings
 #: UnitFormAddAV.dfm:669
 msgid "Parameters"
-msgstr ""
+msgstr "Parametre"
 
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType..Text
 #. FormAddAV..PageControl1..TabSheet2..ComboBoxExecutionType....Items.Strings
@@ -282,25 +290,23 @@ msgstr ""
 #. FormAddAV..PopupMenuInstall..addAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Add1..Caption
 #. FormAddAV..PopupMenuError..AddError..Caption
-#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951
-#: UnitFormAddAV.dfm:1025
+#: UnitFormAddAV.dfm:745 UnitFormAddAV.dfm:885 UnitFormAddAV.dfm:951 UnitFormAddAV.dfm:1025
 msgid "Add"
-msgstr ""
+msgstr "Adaugati"
 
 #. FormAddAV..PopupMenuDelimitadores..delDelim..Caption
 #. FormAddAV..PopupMenuJunk..Del1..Caption
 #. FormAddAV..PopupMenuInstall..delAVNotes..Caption
 #. FormAddAV..PopupMenuAVs..Del2..Caption
 #. FormAddAV..PopupMenuError..DelError..Caption
-#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916
-#: UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
+#: UnitFormAddAV.dfm:784 UnitFormAddAV.dfm:819 UnitFormAddAV.dfm:916 UnitFormAddAV.dfm:982 UnitFormAddAV.dfm:1064
 msgid "Del"
-msgstr ""
+msgstr "Stergeti"
 
 #. FormAddAV..PopupMenuJunk..DelAll1..Caption
 #: UnitFormAddAV.dfm:850
 msgid "Del All"
-msgstr ""
+msgstr "Stergeti tot"
 
 #. FormDebug..Caption
 #. FormMain..Memo....Lines.Strings
@@ -310,26 +316,26 @@ msgstr ""
 
 #. FormDownload..Caption
 #: UnitFormDownload.dfm:4 UnitFormDownload.pas:119
-msgid "Downloading"
-msgstr ""
+msgid "Coborand"
+msgstr "Coborand"
 
 #. FormDownload..Label1..Caption
 #. FormUpdate..Label1..Caption
 #: UnitFormDownload.dfm:29 UnitFormUpdate.dfm:28
 msgid "Progress:"
-msgstr ""
+msgstr "Progres"
 
 #. FormDownload..Label3..Caption
 #. FormUpdate..Label3..Caption
 #: UnitFormDownload.dfm:57 UnitFormUpdate.dfm:56
 msgid "Download:"
-msgstr ""
+msgstr "Descarcat:"
 
 #. FormDownload..ButtonCancel..Caption
 #. FormUpdate..ButtonCancel..Caption
 #: UnitFormDownload.dfm:85 UnitFormUpdate.dfm:84
-msgid "Cancel"
-msgstr ""
+msgid "Anulare"
+msgstr "Anulare"
 
 #. FormLanguage..Label5..Caption
 #. FormLanguage..ComboBoxLang..Text
@@ -341,85 +347,76 @@ msgstr ""
 #. FormMain..CheckBoxAll..Caption
 #: UnitFormMain.dfm:2734 UnitFormMain.dfm:2773
 msgid "Select All"
-msgstr ""
+msgstr "Tot"
 
 #. FormMain..LTime..Caption
-#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480
-#: UnitFormMain.pas:550
+#: UnitFormMain.dfm:2747 UnitFormMain.pas:406 UnitFormMain.pas:480 UnitFormMain.pas:550
 msgid "Time:"
-msgstr ""
+msgstr "Timp:"
 
 #. FormMain..PopupMenuResult..Copiaralportapapeles1..Caption
 #: UnitFormMain.dfm:2903
 msgid "Copy results to clipboard"
-msgstr ""
+msgstr "Copiati rezultatele in clipboard"
 
 #. FormMain..PopupMenuResult..BBCode..Caption
 #: UnitFormMain.dfm:2950
 msgid "Copy results in BBCode"
-msgstr ""
+msgstr "Copiati rezultatele in BBCode"
 
 #. FormMain..PopupMenuResult..Guardarresultados1..Caption
 #: UnitFormMain.dfm:2989
 msgid "Save results"
-msgstr ""
+msgstr "Salvati rezultatele"
 
 #. FormMain..PopupMenuResult..Borrar1..Caption
 #: UnitFormMain.dfm:3036
 msgid "Clear results"
-msgstr ""
+msgstr "Stergeti rezultatele"
 
 #. FormNotice..Warning..Caption
 #: UnitFormNotice.dfm:3638
-msgid "Warning"
-msgstr ""
+msgid "Atentie"
+msgstr "Atentie"
 
 #: UnitFormNotice.pas:66
-msgid ""
-"This program does not replace any antivirus, this is a sample which a "
-"antivirus set would detected in a disk file. The results that this program "
-"may give may be diferent to which it to a antivirus may give in real time "
-"when executing that file. A encripted file may not be detected it in disc, "
-"but in execution after desencription in memory it is very possible that it "
-"may be detected. So never use this program to substitute the complete "
-"defense that any antivirus may provide. This program downloads free versions "
-"from the pages of the antivirus and these versions may not be trustworthy."
-msgstr ""
+msgid "This program does not replace any antivirus, this is a sample which a antivirus set would detected in a disk file. The results that this program may give may be diferent to which it to a antivirus may give in real time when executing that file. A encripted file may not be detected it in disc, but in execution after desencription in memory it is very possible that it may be detected. So never use this program to substitute the complete defense that any antivirus may provide. This program downloads free versions from the pages of the antivirus and these versions may not be trustworthy."
+msgstr "Programul acesta Nu inlocuieste nici un antivirus, este doar o mostra din cea ce un set de antivirusi poate detecta in hardul dumneavoastra. Rezultatele acestui program nu au nici o relatie cu rezultatele unui antivirus in timp real cand deschideti o aplicatie. Este posibil sa nu detecteze fisiere criptate sau comprimate, dar o data descomprimate sau descriptate este foarte posibil sa fie detectate. Asa ca nu trebuie sa folositi nici o data programul acesta cu scopul de a inlocuii protectia completa care o proportioneaza orice antivirus.Programul acesta descarca doar versiuni gratuite de pe paginile de antivirusi. Versiunile acestea, nu este obligatoriu sa fie 100% de incredere."
 
 #. FormNotice..CheckBoxAccept..Caption
 #: UnitFormNotice.dfm:3689
 msgid "Accept"
-msgstr ""
+msgstr "Accept"
 
 #. FormNotice..CheckBoxReject..Caption
 #: UnitFormNotice.dfm:3704
-msgid "Reject"
-msgstr ""
+msgid "Resping"
+msgstr "Resping"
 
 #. FormOpciones..Caption
 #: UnitFormOptions.dfm:6
-msgid "Options"
-msgstr ""
+msgid "Optiuni"
+msgstr "Optiuni"
 
 #. FormOpciones..GeneralOptions..Caption
 #: UnitFormOptions.dfm:74
 msgid "General Options"
-msgstr ""
+msgstr "Optiuni generale"
 
 #. FormOpciones..GeneralOptions..LLanguage..Caption
 #: UnitFormOptions.dfm:87
-msgid "Language"
-msgstr ""
+msgid "Limba"
+msgstr "Limba"
 
 #. FormOpciones..GeneralOptions..LHeuristic..Caption
 #: UnitFormOptions.dfm:101
 msgid "Heuristic level"
-msgstr ""
+msgstr "Nivelul de euristica"
 
 #. FormOpciones..GeneralOptions..ChShowAllAvs..Caption
 #: UnitFormOptions.dfm:130
 msgid "View unavailable AVs"
-msgstr ""
+msgstr "Aratati antivirusii ne disponibili"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:153
@@ -428,48 +425,48 @@ msgstr ""
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:154
-msgid "Low"
-msgstr ""
+msgid "Mic"
+msgstr "Mic"
+
+#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
+#: UnitFormOptions.dfm:154
+msgid "Mediu"
+msgstr "Mediu"
 
 #. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
 #: UnitFormOptions.dfm:155
-msgid "Middle"
-msgstr ""
-
-#. FormOpciones..GeneralOptions..ComboBoxHeur....Items.Strings
-#: UnitFormOptions.dfm:156
-msgid "High"
-msgstr ""
+msgid "Inalt"
+msgstr "Inalt"
 
 #. FormOpciones..ScanOptions..Caption
 #: UnitFormOptions.dfm:164
 msgid "Scan Options"
-msgstr ""
+msgstr "Optiuni de scanare"
 
 #. FormOpciones..ScanOptions..RBScanFile..Caption
 #: UnitFormOptions.dfm:177
 msgid "Scan file"
-msgstr ""
+msgstr "Scanati fisierul"
 
 #. FormOpciones..ScanOptions..RBScanFolder..Caption
 #: UnitFormOptions.dfm:192 UnitFormMain.pas:569
 msgid "Scan folder"
-msgstr ""
+msgstr "Scanati folderul"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBDelInfected..Caption
 #: UnitFormOptions.dfm:213
 msgid "Delete infected files"
-msgstr ""
+msgstr "Stergere fisiere infectate"
 
 #. FormOpciones..ScanOptions..ScanFolderOptions..RBFolderReport..Caption
 #: UnitFormOptions.dfm:228
 msgid "Make folder report"
-msgstr ""
+msgstr "FolderReportScan"
 
 #. FormOpciones..AdvanceOptions..Caption
 #: UnitFormOptions.dfm:245
 msgid "Advance Options"
-msgstr ""
+msgstr "Optiuni avansate"
 
 #. FormOpciones..AdvanceOptions..ChQuietInstall..Caption
 #: UnitFormOptions.dfm:259
@@ -488,12 +485,12 @@ msgstr ""
 
 #. FormUpdate..Caption
 #: UnitFormUpdate.dfm:5 UnitFormUpdate.pas:108
-msgid "Updating"
-msgstr ""
+msgid "Actualizand"
+msgstr "Actualizand"
 
 #: UnitFormAddAV.pas:195 UnitFormAddAV.pas:319 UnitFormAddAV.pas:480
 msgid "Error loading icon!"
-msgstr ""
+msgstr "Eroare! Nu s-a putut incarca iconul!"
 
 #: UnitFormAddAV.pas:232
 msgid "Variables for use in execution:"
@@ -521,72 +518,63 @@ msgstr ""
 
 #: UnitFormDownload.pas:52
 msgid "Warning! The installation process already started!"
-msgstr ""
+msgstr "Atentie! Procesul de instalare s-a pornit!"
 
 #: UnitFormDownload.pas:60 UnitFormMain.pas:692 UnitFormUpdate.pas:56
 msgid "Error stopping:"
-msgstr ""
+msgstr "Eroare inchizand procesul:"
 
 #: UnitFormDownload.pas:75 UnitFormUpdate.pas:71
 msgid "Action canceled"
 msgstr ""
 
-#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320
-#: UnitFormMain.pas:355 UnitFormUpdate.pas:108
+#: UnitFormDownload.pas:120 UnitFormMain.pas:271 UnitFormMain.pas:320 UnitFormMain.pas:355 UnitFormUpdate.pas:108
 msgid "ERROR!"
 msgstr ""
 
 #: UnitFormDownload.pas:106
 msgid "Select the antivirus that you wish to download"
-msgstr ""
+msgstr "Selectionati antivirusii pentru descarcare "
 
-#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247
-#: UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
+#: UnitFormDownload.pas:176 UnitFormDownload.pas:201 UnitFormDownload.pas:247 UnitFormUpdate.pas:179 UnitFormUpdate.pas:224
 msgid "Executing:"
-msgstr ""
+msgstr "Executand:"
 
 #: UnitFormDownload.pas:195
 msgid "When you finish installing the exe click OK"
-msgstr ""
+msgstr "Cand terminati instalarea aplicatiei, apasati OK"
 
 #: UnitFormDownload.pas:216 UnitFormDownload.pas:218
 msgid "Download OK"
-msgstr ""
+msgstr "Sa descarcat"
 
-#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234
-#: UnitFormDownload.pas:236
+#: UnitFormDownload.pas:224 UnitFormDownload.pas:226 UnitFormDownload.pas:234 UnitFormDownload.pas:236
 msgid "Error downloading!"
-msgstr ""
+msgstr "Eroare la descarcare!"
 
 #: UnitFormUpdate.pas:68
-msgid "AVs Downloaded! don't forget to update before "
-"scanning"
-msgstr ""
+msgid "AVs Downloaded! don't forget to update before scanning"
+msgstr "Antivirusi descarcati! Actualizati inainte de folosire!"
 
 #: UnitFormLanguage.pas:40
 msgid "Select a language!"
 msgstr ""
 
-#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419
-#: UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
+#: UnitFormMain.pas:209 UnitFormMain.pas:247 UnitFormMain.pas:419 UnitFormMain.pas:511 UnitScanners.pas:217 UnitScanners.pas:341
 msgid "Virus not found"
-msgstr ""
+msgstr "Nu sa gasit virus"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:440
-msgid "Info"
-msgstr ""
+msgid "Informatie"
+msgstr "Informatie"
 
 #: UnitFormMain.pas:236
-msgid "Date"
-msgstr ""
+msgid "Data"
+msgstr "Data"
 
 #: UnitFormMain.pas:236
-msgid "Name"
-msgstr ""
-
-#: UnitFormMain.pas:236
-msgid "Size"
-msgstr ""
+msgid "Marime"
+msgstr "Marime"
 
 #: UnitFormMain.pas:236
 msgid "bytes"
@@ -594,11 +582,11 @@ msgstr ""
 
 #: UnitFormMain.pas:236
 msgid "Detection rate"
-msgstr ""
+msgstr "Rang de detectiuni"
 
 #: UnitFormMain.pas:236 UnitFormMain.pas:431
-msgid "Detections"
-msgstr ""
+msgid "Detectiuni"
+msgstr "Detectiuni"
 
 #: UnitFormMain.pas:257 UnitFormMain.pas:259
 msgid "Report generated by KIMS v3"
@@ -606,7 +594,7 @@ msgstr ""
 
 #: UnitFormMain.pas:270 UnitFormMain.pas:316 UnitFormMain.pas:348
 msgid "Scan a file first!"
-msgstr ""
+msgstr "Scanati fisierul inainte!"
 
 #: UnitFormMain.pas:333
 msgid "TXT files"
@@ -622,32 +610,32 @@ msgstr ""
 
 #. FormMain.Repaint;
 #: UnitFormMain.pas:482
-msgid "Scanning"
-msgstr ""
+msgid "Se scaneaza"
+msgstr "In scanare"
 
 #: UnitFormMain.pas:425 UnitFormMain.pas:534 UnitFormMain.pas:551
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: UnitFormMain.pas:441
 msgid "First scan:"
-msgstr ""
+msgstr "Prima scanare:"
 
 #: UnitFormMain.pas:442 UnitFormMain.pas:542
 msgid "Last scan:"
-msgstr ""
+msgstr "Ultima scanare:"
 
 #: UnitFormMain.pas:442
 msgid "Never"
-msgstr ""
+msgstr "Nici o data"
 
 #: UnitFormMain.pas:443 UnitFormMain.pas:543
 msgid "Number of scan files:"
-msgstr ""
+msgstr "Totalul fisierelor scanate:"
 
 #: UnitFormMain.pas:444 UnitFormMain.pas:544
 msgid "Number of detections:"
-msgstr ""
+msgstr "Total detectate:"
 
 #: UnitFormMain.pas:501
 msgid "Detected in"
@@ -667,35 +655,32 @@ msgstr ""
 
 #: UnitFormMain.pas:690
 msgid "Stoped Scan"
-msgstr ""
+msgstr "Anuland"
 
 #: UnitFormUpdate.pas:48
 msgid "Warning! The database can be corrupted!"
-msgstr ""
+msgstr "Atentie! Baza de date de semnaturi se poate deteriora!"
 
 #: UnitFormUpdate.pas:96
 msgid "Select the antivirus that you wish to update"
-msgstr ""
+msgstr "Selectionati antivirusii pentru a-i actualiza"
 
 #: UnitFormUpdate.pas:190 UnitFormUpdate.pas:192
 msgid "Updating OK"
-msgstr ""
+msgstr "S-a Actualizat"
 
-#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209
-#: UnitFormUpdate.pas:211
+#: UnitFormUpdate.pas:198 UnitFormUpdate.pas:200 UnitFormUpdate.pas:209 UnitFormUpdate.pas:211
 msgid "Error updating!"
-msgstr ""
+msgstr "Eroare la actualizare!"
 
 #: UnitFormUpdate.pas:86
-msgid "AVs Updated! don't forget to update "
-"frecuently"
+msgid "AVs Updated! don't forget to update frecuently"
 msgstr ""
 
 #: UnitScanners.pas:64
 msgid "Option not available"
 msgstr ""
 
-#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168
-#: UnitScanners.pas:246 UnitScanners.pas:282
+#: UnitScanners.pas:103 UnitScanners.pas:134 UnitScanners.pas:168 UnitScanners.pas:246 UnitScanners.pas:282
 msgid "An error occurred!"
 msgstr ""
