@@ -7,6 +7,9 @@ on INI files.
 CHANGELOG KIMS
 ------------------------
 
+v3.0.3 - 08/05/2016
+	[*] Compilado con Delphi 2010 para poder usar la GUI en Ruso y esos idiomas
+
 v3.0.2 - 09/01/2015
 	[+] Se pueden agregar Herramientas, las mismas se listan despues de los avs.
 	[*] Cambiado comportamiento en deletefolder
