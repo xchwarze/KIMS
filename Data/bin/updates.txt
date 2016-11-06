@@ -1,0 +1,8 @@
+wget (32-bit binary)
+https://eternallybored.org/misc/wget/
+
+innounp
+https://sourceforge.net/projects/innounp/files/
+
+7z (7-Zip for 32-bit Windows)
+http://www.7-zip.org/download.html

@@ -6,6 +6,10 @@ on INI files.
 
 CHANGELOG KIMS
 ------------------------
+v3.0.4 - 06/11/2016
+	[!!] Se revierte el cambio del v3.0.3 porque rompe todo lo que es consola
+	[*] La ventana de download/update es mas grande
+	[*] Actualizados 7zip, wget y innounp
 
 v3.0.3 - 08/05/2016
 	[*] Compilado con Delphi 2010 para poder usar la GUI en Ruso y esos idiomas
