@@ -8,6 +8,6 @@ programed by Thor. In 2009 it began being developed to the new version by DSR!.
 Images
 -----------
 
-![alt text](http://i42.tinypic.com/3515xxx.jpg "KIMS - Main window")
+![alt text](https://raw.githubusercontent.com/xchwarze/KIMS/master/Docs/img/kims_multiple_antivirus_scanner_01.jpg "KIMS - Main window")
 
-![alt text](http://i46.tinypic.com/43o1k.png "KIMS - AVs editor")
+![alt text](https://raw.githubusercontent.com/xchwarze/KIMS/master/Docs/img/kims_multiple_antivirus_scanner_03.jpg "KIMS - AVs editor")
